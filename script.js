@@ -185,6 +185,7 @@ let things = ['hammer', 'nails', 'ruler', 'screwdriver', 'screws', 'saw'];
 
 
 // --------------------------------------- IF ELSE & LOGICAL OPERATORS-----------------------------------------
+/*
 
 let hour = 17;
 
@@ -204,3 +205,5 @@ const sunny = false;
     }
 
     else (console.log('it is sunny'));
+
+    */
