@@ -167,13 +167,22 @@ console.log(fruits)
 for (let i=10; i >= 0; i--){
     console.log(i);
 }
+*/
 
 let fruitz = ['apple', 'orange', 'pear', 'kiwi', 'pineapple'];
 
-for(let i=0; i <10; i++){
-    console.log(fruitz);
+for(let i = 0; i < fruitz.length; i ++){
+    console.log(i + ': ' + fruitz[i]);
 }
-*/
+
+let things = ['hammer', 'nails', 'ruler', 'screwdriver', 'screws', 'saw'];
+
+
+    
+
+
+
+
 
 // --------------------------------------- IF ELSE & LOGICAL OPERATORS-----------------------------------------
 
