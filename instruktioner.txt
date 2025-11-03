@@ -1,0 +1,11 @@
+1.
+- Skriv ett program som frågar användaren efter ett tal. Programmet ska skriva ut talet avrundat till ett heltal. 
+(Extra utmaning: skriv ut talet avrundat till en decimal i stället)
+
+
+2.
+- 
+let a = [1,2,3,7,8,9];
+let b = [4,5,6];
+
+Merga ner array b på index 3 i array a.
