@@ -177,7 +177,9 @@ for(let i = 0; i < fruitz.length; i ++){
 
 let things = ['hammer', 'nails', 'ruler', 'screwdriver', 'screws', 'saw'];
 
-
+    for (x of things){
+        console.log(x)
+    }
     
 
 
