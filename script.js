@@ -3,7 +3,7 @@
  alert('du tog på mig');
  }
  ()
-*/
+
 
 
 //VARIABLER
@@ -20,7 +20,7 @@ const användarNamn = "Waern";
 2. Number
 3. Boolean
 
-*/
+
 
 let frukt = "mango";
 let ålder = "20";
@@ -150,6 +150,7 @@ console.log(" Produkt ", förstaTal * andraTal);
 
 // --------------------------------------- ARRAYS -----------------------------------------
 
+/*
 let a = [1,2,3,7,8,9]; 
 let b = [4,5,6]; 
  
@@ -161,13 +162,15 @@ const fruits = ["Banana", "Apelsin", "Vattenmelon", "Citrus", "Druvor", "Honungs
 fruits.reverse();
 console.log(fruits)
 
+*/
+
 // --------------------------------------- LOOPAR -----------------------------------------
 
 /*
 for (let i=10; i >= 0; i--){
     console.log(i);
 }
-*/
+
 
 let fruitz = ['apple', 'orange', 'pear', 'kiwi', 'pineapple'];
 
@@ -180,8 +183,8 @@ let things = ['hammer', 'nails', 'ruler', 'screwdriver', 'screws', 'saw'];
     for (x of things){
         console.log(x)
     }
-    
 
+    */
 
 
 
@@ -209,3 +212,45 @@ const sunny = false;
     else (console.log('it is sunny'));
 
     */
+
+
+// --------------------------------------- FUNKTIONER -----------------------------------------
+
+    function divideNumbers(num1, num2){
+        let sum = num1 / num2;
+        document.getElementById("divide").innerHTML = `divideFuntion: Sum: ${sum}`;  
+
+        console.log(`Sum: ${sum}`);
+
+    }
+
+    function mulitplyNumbers(num1, num2){
+        let sum = num1 * num2;
+        document.getElementById("multiply").innerHTML = `multiplyFunction: Sum: ${sum}`;  
+
+        console.log(`Sum: ${sum}`);
+
+    }
+
+     function addNumbers(num1, num2){
+        let sum = num1 + num2;
+        document.getElementById("add").innerHTML = `addFunction: Sum: ${sum}`;  
+
+        console.log(`Sum: ${sum}`);
+
+    }
+
+    function subNumbers(num1, num2){
+        let sum = num1 - num2;
+        document.getElementById("sub").innerHTML = `subFunction: Sum: ${sum}`;  
+
+        console.log(`Sum: ${sum}`);
+
+    }
+
+  function calculate(num1, num2, doStuff){
+
+    doStuff(num1, num2);
+  }
+
+  calculate(10, 11, addNumbers);
