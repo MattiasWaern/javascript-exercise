@@ -216,6 +216,7 @@ const sunny = false;
 
 // --------------------------------------- FUNKTIONER -----------------------------------------
 
+/*
     function divideNumbers(num1, num2){
         let sum = num1 / num2;
         document.getElementById("divide").innerHTML = `divideFuntion: Sum: ${sum}`;  
@@ -254,3 +255,22 @@ const sunny = false;
   }
 
   calculate(10, 11, addNumbers);
+
+*/
+
+// --------------------------------------- OBJECT -----------------------------------------
+
+    const person = {
+        firstName: "Mattias",
+        lastName: "Waern",
+        age: 21,
+        isEmployed: false,
+        isStuduying: true,
+
+        sayHello: function(){console.log("Hej jag heter Mattias")},
+        eat: function(){console.log("Jag äter en chicken nugget yum yum")},
+    }
+
+person.eat();
+
+console.log(person.firstName);
