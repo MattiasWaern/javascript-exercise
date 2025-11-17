@@ -259,7 +259,7 @@ const sunny = false;
 */
 
 // --------------------------------------- OBJECT -----------------------------------------
-
+/*
     const person = {
         firstName: "Mattias",
         lastName: "Waern",
@@ -274,3 +274,17 @@ const sunny = false;
 person.eat();
 
 console.log(person.firstName);
+*/
+
+// --------------------------------------- DOM -----------------------------------------
+
+document.title = "Älskar annika"; // Ändra sidans titel
+document.body.style.backgroundColor = "hsl(0, 0%, 15%)";
+
+
+const username = "Regge";
+const rubrik = document.getElementById("rubrik")
+
+rubrik.textContent += username === "" ? `guest` : username;
+
+document.getElementById("rubrik").style.color = "hsl(0, 0%, 100%)" // Ändra färgen på text
