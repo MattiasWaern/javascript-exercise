@@ -1,3 +1,0 @@
-//Drum kit
-
-alert("Hello!");
