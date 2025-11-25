@@ -80,3 +80,4 @@ console.log(`
     Abilities: ${pokemon.abilities.map(a => a.ability.name).join(', ')}
     `);
 });
+
