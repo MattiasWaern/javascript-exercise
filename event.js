@@ -69,6 +69,7 @@ const loadPokemon = (id, callback) => {
     .then(data => {
         callback(data)
     })
+    .catch(error => console.error(error));
 }
 
 loadPokemon(506, (pokemon) =>{
