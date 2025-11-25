@@ -22,6 +22,9 @@ input.addEventListener("input", () => {
 });
 */
 
+
+//asynchronous function
+
 function func1(callback){
     setTimeout(() => {console.log("Task 1")
                     callback() }, 3000 )
@@ -33,5 +36,41 @@ function func2(){
     console.log("Task 4");
 }
 
-
 func1(func2);
+
+
+
+console.log("1");
+setTimeout(() => {
+    console.log("2")
+}, 0);
+console.log("3");
+
+
+// CALLBACKS
+
+const names = ['mattias', 'annika', 'milo', 'tjockis', 'smalis']
+
+const myForEach = (arr, cb) => {
+    for (let i = 0; i < arr.length; i++) {
+        const element = arr[i];
+        cb(element)
+    }
+}
+
+myForEach(names, (name) =>{
+    console.log(name);
+})
+
+
+const loadPokemon = (id, callback) => {
+    fetch(`https://pokeapi.co/api/v2/pokemon/${id}`)
+    .then(res => res.json())
+    .then(data => {
+        callback(data)
+    })
+}
+
+loadPokemon(506, (pokemon) =>{
+    console.log(pokemon);
+})
