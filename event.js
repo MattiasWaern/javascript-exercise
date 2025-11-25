@@ -1,4 +1,4 @@
-const knapp = document.getElementById("minKnapp");
+/*const knapp = document.getElementById("minKnapp");
 const counter = document.getElementById("counter");
 const countDown = document.getElementById("countDown")
 
@@ -20,3 +20,18 @@ knapp.addEventListener("click", () => {
 input.addEventListener("input", () => {
     result.textContent = input.value;
 });
+*/
+
+function func1(callback){
+    setTimeout(() => {console.log("Task 1")
+                    callback() }, 3000 )
+}
+
+function func2(){
+    console.log("Task 2");
+    console.log("Task 3");
+    console.log("Task 4");
+}
+
+
+func1(func2);
