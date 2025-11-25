@@ -72,6 +72,10 @@ const loadPokemon = (id, callback) => {
     .catch(error => console.error(error));
 }
 
-loadPokemon(506, (pokemon) =>{
-    console.log(pokemon);
-})
+loadPokemon(79, (pokemon) => {
+console.log(`
+    Namn: ${pokemon.name}
+    ID: ${pokemon.id}
+    Abilities: ${pokemon.abilities.map(a => a.ability.name).join(', ')}
+    `);
+});
