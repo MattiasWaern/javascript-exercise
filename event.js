@@ -62,6 +62,7 @@ myForEach(names, (name) =>{
     console.log(name);
 })
 
+// Pokemon api 
 
 const loadPokemon = (id, callback) => {
     fetch(`https://pokeapi.co/api/v2/pokemon/${id}`)
