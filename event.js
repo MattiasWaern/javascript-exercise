@@ -87,7 +87,16 @@ function walkDog(){
 
     return new Promise((resolve, reject) => {
     setTimeout(() => {
-       resolve("You walk the dog")
+
+        const dogWalked = true;
+
+        if(dogWalked){
+            resolve("You walk the dog");
+        }
+        else{
+            reject("you DIDIN'T WALK THE DOG");
+        }
+      
     },1500);
     });
 }
@@ -95,7 +104,15 @@ function walkDog(){
 function cleanKitchen(){
     return new Promise((resolve, reject) => {
     setTimeout(() => {
-       resolve("You cleaned the kitchen")
+
+        const kitchenCleaned = true;
+
+        if(kitchenCleaned){
+             resolve("You cleaned the kitchen");
+        }
+        else{
+            reject("you DIDIN'T CLEAN THE KITCHEN")
+        }
     },2500);
     });
 }
@@ -104,10 +121,21 @@ function takeOutTrash(){
 
     return new Promise((resolve, reject) => {
     setTimeout(() => {
-       resolve("You took out the trash")
+       
+        const trashTakenOut = false;
+
+            if (trashTakenOut){
+                resolve("You took out the trash")
+            }
+            else{
+                reject("you DID NOT TAKE OUT THE TRASH!")
+            }
+
     },500);
     }); 
 } 
 
-walkDog().then(value => {console.log(value); return cleanKitchen()});
-            .then(value)=> console.log(value)
+walkDog().then(value => {console.log(value); return cleanKitchen()})
+            .then(value => {console.log(value); return takeOutTrash()})
+            .then(value => {console.log(value); console.log("you finished all the chores")})
+            .catch(error => console.error(error));
