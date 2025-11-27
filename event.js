@@ -24,7 +24,7 @@ input.addEventListener("input", () => {
 
 
 //asynchronous function
-
+/*
 function func1(callback){
     setTimeout(() => {console.log("Task 1")
                     callback() }, 3000 )
@@ -139,3 +139,28 @@ walkDog().then(value => {console.log(value); return cleanKitchen()})
             .then(value => {console.log(value); return takeOutTrash()})
             .then(value => {console.log(value); console.log("you finished all the chores")})
             .catch(error => console.error(error));
+*/
+
+const button = document.getElementById("button");
+console.log(button);
+button.addEventListener("click", () => {
+    fetchItems();
+})
+
+async function fetchItems(){
+    const response = await fetch("https://world.openfoodfacts.org/api/v2/search?fields=code,product_name,brands&page_size=20", {
+        method: "GET"
+    });
+
+    const data = await response.json();
+    const list = document.querySelector(".list");
+    list.innerHTML = "";
+
+data.products.forEach(product => {
+    const li = document.createElement("li");
+    li.textContent = `Brand: ${product.brands} - Product name: ${product.product_name} - Code: ${product.code}`
+      
+        list.appendChild(li);
+    });
+}
+
