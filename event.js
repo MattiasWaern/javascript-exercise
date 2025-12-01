@@ -164,3 +164,20 @@ data.products.forEach(product => {
     });
 }
 
+// --------------------------------------- CLASS -----------------------------------------
+
+class Person {
+    constructor(name, age, job, cute){
+        this.name = name;
+        this.age = age;
+        this.job = job;
+        this.cute = cute;
+    }
+    introduce(){
+        console.log(`Hi, my name is ${this.name}, I am ${this.age} years old and I works as a ${this.job}. And she is ${this.cute}`)
+    }
+}
+const person1 = new Person("Annika", 21, "Student", "cute")
+person1.introduce();
+
+
