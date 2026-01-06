@@ -62,6 +62,7 @@ myForEach(names, (name) =>{
     console.log(name);
 })
 
+*/
 // Pokemon api 
 
 const loadPokemon = (id, callback) => {
@@ -73,7 +74,7 @@ const loadPokemon = (id, callback) => {
     .catch(error => console.error(error));
 }
 
-loadPokemon(79, (pokemon) => {
+loadPokemon(959, (pokemon) => {
 console.log(`
     Namn: ${pokemon.name}
     ID: ${pokemon.id}
@@ -82,6 +83,8 @@ console.log(`
 });
 
 // Promises
+
+/*
 
 function walkDog(){
 
@@ -141,6 +144,7 @@ walkDog().then(value => {console.log(value); return cleanKitchen()})
             .catch(error => console.error(error));
 */
 
+/*
 const button = document.getElementById("button");
 console.log(button);
 button.addEventListener("click", () => {
@@ -181,3 +185,4 @@ const person1 = new Person("Annika", 21, "Student", "cute")
 person1.introduce();
 
 
+*/
