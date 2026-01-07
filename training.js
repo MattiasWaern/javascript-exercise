@@ -1,3 +1,5 @@
+//Dag 1
+
 const button = document.getElementById('button');
 const btn = document.getElementById('btn');
 const filterButton = document.getElementById('filterButton');
@@ -60,3 +62,8 @@ function filterPersoner(){
     })
 }
    
+// Dag 2
+
+
+// Nivå 1
+
