@@ -1,8 +1,18 @@
 const button = document.getElementById('button');
+const btn = document.getElementById('btn');
 const filterButton = document.getElementById('filterButton');
 const result = document.getElementById('result')
 let clickCount = 0;
 
+// Nivå 1
+
+btn.addEventListener('click', () => {
+    clickCount++;
+
+    result.innerHTML = (clickCount);
+})
+
+// Nivå 2
 
 const names = [
     'Mattias', 
@@ -22,6 +32,7 @@ result.innerHTML = '';
 });
 
 
+// Nivå 3
 
 const personer = [
     {name: "Mattias", age: 18},
@@ -32,11 +43,9 @@ const personer = [
     {name: "Joakim", age: 26}
 ];
 
-
 filterButton.addEventListener('click', () => {
     filterPersoner();
 })
-
 
 function filterPersoner(){
     const ageValue = Number(document.getElementById('ageToCheck').value);
