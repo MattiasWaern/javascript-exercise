@@ -1,4 +1,4 @@
-# Dag 1 – Funktioner, Events, DOM & Loopar
+# Dag 1 – Funktioner, Events, DOM & Loopar --------------------------------------------------------------------------------------------------------
 
 **Syfte:** Avslöja hur studenter tänker kring flöde, struktur och UI-logik.
 
@@ -66,3 +66,62 @@
 - Villkorslogik
 - Array-metoder vs loop
 - Separation av ansvar (data / logik / DOM)
+
+# Dag 2 – Objekt & Asynkron JavaScript ---------------------------------------------------------------------------------------------------------------------------
+
+**Syfte:** Avslöja abstrakt tänkande, dataflöde och async-förståelse.
+
+---
+
+## Nivå 1 – Objekt & metoder
+### Uppgift: Person-objekt
+
+### Krav
+- Skapa ett objekt med:
+  - namn
+  - ålder
+  - metod som returnerar:
+    > “Hej, jag heter X och är Y år”
+- Visa resultatet i DOM via knapp
+
+### Diagnostiserar
+- Objektstruktur
+- Metod vs funktion
+- Return vs console.log
+
+---
+
+## Nivå 2 – Asynkron data (fetch)
+### Uppgift: Hämta data från API
+
+Exempel: https://jsonplaceholder.typicode.com/users
+
+### Krav
+- Hämta data
+- Vänta på svaret
+- Rendera namn i DOM
+- Använd `async/await` eller `.then()`
+
+### Diagnostiserar
+- Async-förståelse
+- Promise-flöde
+- Timing
+
+---
+
+## Nivå 3 – Dataflöde + DOM + event
+### Uppgift: Interaktiv API-lista
+
+### Krav
+- Hämta data
+- Rendera lista
+- Vid klick:
+  - visa mer information om vald post
+- Undvik global data
+
+### Diagnostiserar
+- Dataflöde
+- State-tänk
+- Event + async i kombination
+
+---
