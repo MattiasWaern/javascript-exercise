@@ -4,6 +4,7 @@ const button = document.getElementById('button');
 const btn = document.getElementById('btn');
 const filterButton = document.getElementById('filterButton');
 const result = document.getElementById('result')
+const greetingButton = document.getElementById('greeting') // .addEventListener('click', greeting);
 let clickCount = 0;
 
 // Nivå 1
@@ -67,3 +68,50 @@ function filterPersoner(){
 
 // Nivå 1
 
+greetingButton.addEventListener('click', greeting);
+
+function greeting (){
+    result.innerHTML = '';
+    let human = {name: "Mattias", age: 20}
+
+
+    result.innerHTML = ` Mitt namn är ${human.name} och jag är ${human.age} år `
+}
+
+
+// Nivå 2
+
+async function fetchApi(){
+    const response = await fetch('https://jsonplaceholder.typicode.com/users');
+    const data = await response.json();
+
+    if(!response.ok){
+        throw new Error('Något gick fel');
+    }
+
+    console.log(data);
+    return data;
+
+}
+
+async function showUsers(){
+
+    try{
+    const users = await fetchApi();
+    const usersDiv = document.getElementById('users');
+    usersDiv.innerHTML = '';
+
+    users.forEach(user => {
+        usersDiv.innerHTML += `Name: ${user.name} - Email: ${user.email} <br>`;
+    })
+
+    if(!users.length){
+        users.innerHTML = 'Inga användare hittades';
+    }
+    } catch (error){
+        console.log('Error:', error);
+    }
+
+}
+
+showUsers();
