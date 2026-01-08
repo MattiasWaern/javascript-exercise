@@ -63,7 +63,7 @@ function filterPersoner(){
     })
 }
    
-// Dag 2
+//  ----------------------------------- Dag 2 -------------------------------------------
 
 
 // Nivå 1
@@ -115,3 +115,5 @@ async function showUsers(){
 }
 
 showUsers();
+
+// Nivå 3
