@@ -65,10 +65,10 @@ function greeting() {
   result.innerHTML = "";
   let human = { name: "Mattias", age: 20 };
 
-  result.innerHTML = ` Mitt namn är ${human.name} och jag är ${human.age} år `;
+  result.innerHTML = ` Mitt namn är <strong>${human.name}</strong> och jag är <strong>${human.age}</strong> år gammal `;
 }
 
-// Nivå 2
+// Nivå 2 o Nivå 3
 
 async function fetchApi() {
   const response = await fetch("https://jsonplaceholder.typicode.com/users");
@@ -100,7 +100,7 @@ async function showUsers() {
             userDiv.innerHTML = `
             Namn: ${user.name} <br>
             Email: ${user.email} <br>
-            Adress: ${user.address.street}, ${user.address.city} <br>
+            Adress: ${user.address.street}, (${user.address.city})<br>
             Telefon: ${user.phone} <br>
             Företag: ${user.company.name}
 
@@ -121,6 +121,5 @@ async function showUsers() {
 
 }
 
-
 showUsers();
-// Nivå 3
+
