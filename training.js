@@ -112,7 +112,7 @@ async function showUsers() {
     });
 
     if(users.length === 0 ){
-        userDiv.innerHTML = "Inga anändare hittades";
+        usersDiv.innerHTML = "Inga anändare hittades";
     }
 
 } catch (error) {
