@@ -63,7 +63,7 @@ greetingButton.addEventListener("click", greeting);
 
 function greeting() {
   result.innerHTML = "";
-  let human = { name: "Mattias", age: 20 };
+  let human = { name: "Annika", age: 21 };
 
   result.innerHTML = ` Mitt namn är <strong>${human.name}</strong> och jag är <strong>${human.age}</strong> år gammal `;
 }
