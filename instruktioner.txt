@@ -1,3 +1,4 @@
+---------------------- NIVÅ 1 --------------------- KLART
 1. Hälsa användaren 
 Be användaren skriva in sitt namn (prompt eller input).
 Visa: Hej, <namn>!
@@ -21,7 +22,7 @@ Låt användaren gissa tills rätt.
 Visa hur många försök det tog.
 
 2. Multiplikationstabell
-Skriv ut tabell för ett valt tal (1–10).
+Skriv ut tabell för ett valt tal (1–10). **********
 
 3. FizzBuzz
 1–100
