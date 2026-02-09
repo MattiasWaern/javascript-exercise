@@ -1,127 +1,70 @@
-# Dag 1 – Funktioner, Events, DOM & Loopar --------------------------------------------------------------------------------------------------------
+1. Hälsa användaren
+Be användaren skriva in sitt namn (prompt eller input).
+Visa: Hej, <namn>!
 
-**Syfte:** Avslöja hur studenter tänker kring flöde, struktur och UI-logik.
+2. Jämnt eller udda
+Ta emot ett tal.
+Skriv ut om talet är jämnt eller udda.
 
----
+3. Temperaturomvandlare
+Celsius → Fahrenheit.
+Bonus: åt båda hållen.
 
-## Nivå 1 – Event + funktion (basdiagnos)
-### Uppgift: Klickräknare
+4. Räknare
+Två tal + ett räknesätt (+ - * /)
+Visa resultatet.
 
-**Bygg allt från scratch. (Ingen hjälp av AI under repetitionen)**
+---------------------- NIVÅ 2 ---------------------
+1. Gissa talet
+Slumpa ett tal 1–10.
+Låt användaren gissa tills rätt.
+Visa hur många försök det tog.
 
-### Krav
-- Skapa en knapp i HTML
-- Vid klick:
-  - en funktion körs
-  - räknaren ökar med 1
-  - värdet visas i DOM
+2. Multiplikationstabell
+Skriv ut tabell för ett valt tal (1–10).
 
-### Regler
-- Funktionen ska vara separat
-- Ingen kod direkt i event-lyssnaren
-- `console.log` är tillåtet
+3. FizzBuzz
+1–100
+Fizz om delbart med 3
+Buzz om 5
+FizzBuzz om båda
 
-### Diagnostiserar
-- Kan de skriva funktioner själva?
-- Förstår de event listeners?
-- Förstår de när kod körs?
+4. Summera lista
+En array med tal.
+Räkna ut summan och medelvärdet.
 
----
 
-## Nivå 2 – DOM + loop
-### Uppgift: Lista med namn
+---------------------- NIVÅ 3 ---------------------
+1.Knapp-räknare
+En knapp som ökar en siffra varje klick.
 
-**All HTML skapas via JavaScript.**
+2.To-do lista
+Input + knapp
+Lägg till saker i en lista
+Bonus: ta bort eller markera klar
 
-### Krav
-- Skapa en array med minst 5 namn
-- Vid klick:
-  - loopa igenom arrayen
-  - rendera varje namn i DOM
-- Listan ska tömmas före ny rendering
+3.Byt tema
+Knapp som växlar mellan light/dark mode.
 
-### Extra
-- Visa index framför namnet
+4. Form-validering
+Kontrollera:
+tomma fält
+giltig e-post
+Visa felmeddelanden i DOM.
 
-### Diagnostiserar
-- Loop-förståelse
-- DOM-manipulation
-- Blandning av logik och rendering
+---------------------- NIVÅ 4 ---------------------
+1. Timer / Stopwatch
+Start / Paus / Reset
 
----
+2. Bildslider
+Visa en bild i taget
+Nästa / Föregående
 
-## Nivå 3 – Kombinerad UI-logik
-### Uppgift: Enkel filterfunktion
+3. API-övning
+Hämta data från ett API (t.ex. väder eller böcker)
+Visa i DOM
 
-### Krav
-- Skapa en array med objekt:
-```js
-{ name: "Anna", age: 25 }
-- Inputfält + knapp
-- Vid klick:
-  - filtrera fram personer över viss ålder
-  - rendera resultatet i DOM
-
-### Diagnostiserar
-- Villkorslogik
-- Array-metoder vs loop
-- Separation av ansvar (data / logik / DOM)
-
-# Dag 2 – Objekt & Asynkron JavaScript ---------------------------------------------------------------------------------------------------------------------------
-
-**Syfte:** Avslöja abstrakt tänkande, dataflöde och async-förståelse.
-
----
-
-## Nivå 1 – Objekt & metoder
-### Uppgift: Person-objekt
-
-### Krav
-- Skapa ett objekt med:
-  - namn
-  - ålder
-  - metod som returnerar:
-    > “Hej, jag heter X och är Y år”
-- Visa resultatet i DOM via knapp
-
-### Diagnostiserar
-- Objektstruktur
-- Metod vs funktion
-- Return vs console.log
-
----
-
-## Nivå 2 – Asynkron data (fetch)
-### Uppgift: Hämta data från API
-
-Exempel: https://jsonplaceholder.typicode.com/users
-
-### Krav
-- Hämta data
-- Vänta på svaret
-- Rendera namn i DOM
-- Använd `async/await` eller `.then()`
-
-### Diagnostiserar
-- Async-förståelse
-- Promise-flöde
-- Timing
-
----
-
-## Nivå 3 – Dataflöde + DOM + event
-### Uppgift: Interaktiv API-lista
-
-### Krav
-- Hämta data
-- Rendera lista
-- Vid klick:
-  - visa mer information om vald post
-- Undvik global data
-
-### Diagnostiserar
-- Dataflöde
-- State-tänk
-- Event + async i kombination
-
----
+4. Mini-spel
+Clicker-spel
+Memory
+Sten-sax-påse
