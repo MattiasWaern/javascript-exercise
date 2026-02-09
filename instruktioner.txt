@@ -1,4 +1,4 @@
-1. Hälsa användaren
+1. Hälsa användaren 
 Be användaren skriva in sitt namn (prompt eller input).
 Visa: Hej, <namn>!
 
@@ -7,7 +7,7 @@ Ta emot ett tal.
 Skriv ut om talet är jämnt eller udda.
 
 3. Temperaturomvandlare
-Celsius → Fahrenheit.
+Celsius → Fahrenheit. (gånger 1.8)
 Bonus: åt båda hållen.
 
 4. Räknare
