@@ -106,7 +106,7 @@ button.addEventListener('click', () => {
     counter.innerHTML = clickCount;
 });
 
-*/
+
 const greetings = document.getElementById("Greetings")
 const themeButton = document.getElementById("toggleTheme");
 
@@ -121,3 +121,5 @@ function switchTheme(){
 }
 
 themeButton.addEventListener('click', switchTheme);
+
+*/
