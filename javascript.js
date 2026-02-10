@@ -72,7 +72,7 @@ for(i = 1; i <= answer; i++){
     }
 }
 
-*/
+
 
 let talList = [5, 10, 15, 20, 25];
 console.log(`En array med tal: ${talList}`)
@@ -93,3 +93,15 @@ function medelvärdet(){
 }
 
 medelvärdet();
+
+*/
+
+button = document.getElementById("clickCountKnapp");
+const counter = document.getElementById("clickCountCounter");
+let clickCount = 0;
+
+
+button.addEventListener('click', () => {
+    clickCount ++;
+    counter.innerHTML = clickCount;
+});
