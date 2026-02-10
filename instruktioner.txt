@@ -22,9 +22,9 @@ Låt användaren gissa tills rätt.
 Visa hur många försök det tog.
 
 2. Multiplikationstabell
-Skriv ut tabell för ett valt tal (1–10). **********
+Skriv ut tabell för ett valt tal (1–10). 
 
-3. FizzBuzz
+3. FizzBuzz **********
 1–100
 Fizz om delbart med 3
 Buzz om 5

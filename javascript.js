@@ -25,7 +25,7 @@ const number1 = parseInt(prompt("Skriv första siffran"));
 const number2 = parseInt(prompt("Skriv andra siffran"));
 
 console.log(number1 + number2);
-*/
+
 
 let guessCount = document.getElementById("guessCount");
 guessCount.innerHTML = 1;
@@ -47,5 +47,18 @@ let guess = parseInt(prompt("Skriv en siffra 1-10"));
 }
 
 checkWin();
+
+
+
+const tal = parseInt(prompt("skirv ditt tal"));
+
+for (i = 1; i <= 10; i++){
+    console.log(`${tal} x ${i} = ${tal * i}`);
+}
+    
+*/
+ 
+let answer = parseInt(prompt("Skriv ditt tal som du vill fizzbuzza :)"))
+
 
 
