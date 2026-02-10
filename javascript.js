@@ -94,7 +94,7 @@ function medelvärdet(){
 
 medelvärdet();
 
-*/
+
 
 button = document.getElementById("clickCountKnapp");
 const counter = document.getElementById("clickCountCounter");
@@ -105,3 +105,19 @@ button.addEventListener('click', () => {
     clickCount ++;
     counter.innerHTML = clickCount;
 });
+
+*/
+const greetings = document.getElementById("Greetings")
+const themeButton = document.getElementById("toggleTheme");
+
+function switchTheme(){
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', newTheme);
+
+    console.log(`Tema bytt till: ${newTheme}`);
+
+    greetings.innerHTML = `Hej!! Min sida har temat: ${newTheme}`;
+}
+
+themeButton.addEventListener('click', switchTheme);

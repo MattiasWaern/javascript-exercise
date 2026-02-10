@@ -1,0 +1,9 @@
+:root[data-theme="dark"]{
+    background-color: darkgray;
+    color: green;
+}
+
+:root[data-theme="light"]{
+    background-color: beige;
+    color: aqua;
+}
