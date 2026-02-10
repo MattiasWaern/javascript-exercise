@@ -56,7 +56,7 @@ for (i = 1; i <= 10; i++){
     console.log(`${tal} x ${i} = ${tal * i}`);
 }
     
-*/
+
  
 let answer = parseInt(prompt("Skriv ditt tal som du vill FizzBuzza :)"))
 
@@ -72,3 +72,24 @@ for(i = 1; i <= answer; i++){
     }
 }
 
+*/
+
+let talList = [5, 10, 15, 20, 25];
+console.log(`En array med tal: ${talList}`)
+
+
+
+function medelvärdet(){
+    let summa = 0;
+
+    for(i = 1; i < talList.length; i++){
+        summa += talList[i]
+    }
+  let talListMedelvärdet = summa / talList.length;
+  let talListSumma = summa + talList.length;
+
+  console.log(`Medelvärdet: ${talListMedelvärdet}`);
+  console.log(`Summan: ${talListSumma}`);
+}
+
+medelvärdet();

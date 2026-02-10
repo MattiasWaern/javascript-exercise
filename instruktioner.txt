@@ -24,13 +24,13 @@ Visa hur många försök det tog.
 2. Multiplikationstabell
 Skriv ut tabell för ett valt tal (1–10). 
 
-3. FizzBuzz **********
+3. FizzBuzz 
 1–100
 Fizz om delbart med 3
 Buzz om 5
 FizzBuzz om båda
 
-4. Summera lista
+4. Summera lista 
 En array med tal.
 Räkna ut summan och medelvärdet.
 
