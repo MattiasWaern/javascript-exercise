@@ -58,7 +58,17 @@ for (i = 1; i <= 10; i++){
     
 */
  
-let answer = parseInt(prompt("Skriv ditt tal som du vill fizzbuzza :)"))
+let answer = parseInt(prompt("Skriv ditt tal som du vill FizzBuzza :)"))
 
-
+for(i = 1; i <= answer; i++){
+    if (i % 3 === 0 && i % 5 === 0) {
+        console.log("Fizzbuzz");
+    } else if (i % 3 === 0){
+        console.log("Fizz")
+    } else if (i % 5 === 0){
+        console.log("Buzz")
+    } else {
+        console.log(`${i}: FizzBuzz`);
+    }
+}
 
