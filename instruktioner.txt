@@ -47,7 +47,7 @@ Bonus: ta bort eller markera klar
 3.Byt tema ***
 Knapp som växlar mellan light/dark mode.
 
-4. Form-validering
+4. Form-validering ***
 Kontrollera:
 tomma fält
 giltig e-post

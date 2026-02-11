@@ -122,7 +122,7 @@ function switchTheme(){
 
 themeButton.addEventListener('click', switchTheme);
 
-*/
+
 
 function validateForm() {
   let name = document.forms["myForm"]["fname"].value;
@@ -152,3 +152,48 @@ function validateForm() {
   alert("Form submitted successfully")
   return true;
 }
+*/
+
+const prevButton = document.getElementById("prevPhotoButton")
+const nextButton = document.getElementById("nextPhotoButton")
+
+function photoAlbum(){
+
+    const photos = [
+        "https://placehold.co/300x300",
+        "https://placehold.co/300x300/0000FF/808080",
+        "https://placehold.co/300x300/FF0000/FFFFFF",
+        "https://placehold.co/300x300/FFFF00/000000",
+        "https://placehold.co/300x300/00FF00/000000"
+    ]
+
+    let currentIndex = 0;
+
+    function showPhoto(index){
+        const photoElement = document.getElementById("photo");
+        photoElement.src = photos[index];
+
+        prevButton.disabled = index === 0;
+        nextButton.disabled = index === photos.length -1;
+    }
+
+    showPhoto(currentIndex);
+
+    prevButton.addEventListener('click', () => {
+        console.log("Previous button clicked");
+        if (currentIndex> 0){
+            currentIndex--;
+            showPhoto(currentIndex);
+        }
+    })
+
+    nextButton.addEventListener('click', () => {
+        console.log("Next button clicked");
+        if (currentIndex < photos.length -1){
+            currentIndex ++;
+            showPhoto(currentIndex);
+        }
+    })
+}
+
+photoAlbum();
