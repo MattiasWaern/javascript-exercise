@@ -123,3 +123,32 @@ function switchTheme(){
 themeButton.addEventListener('click', switchTheme);
 
 */
+
+function validateForm() {
+  let name = document.forms["myForm"]["fname"].value;
+  let password = document.forms["myForm"]["password"].value;
+  let email = document.forms["myForm"]["email"].value;
+  if (name == "") {
+    alert("Name must be filled out");
+    return false;
+  } else{
+    alert("Thanks for submitting name")
+  }
+
+    if (password == "") {
+    alert("Password must be filled out");
+    return false;
+  } else{
+    alert("Thanks for submitting Password")
+  }
+
+    if (email == "" || !email.includes("@")) {
+    alert("Email must be filled out / Valid email");
+    return false;
+  } else{
+    alert("Thanks for submitting Email")
+  }
+
+  alert("Form submitted successfully")
+  return true;
+}
