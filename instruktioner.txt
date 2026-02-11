@@ -57,7 +57,7 @@ Visa felmeddelanden i DOM.
 1. Timer / Stopwatch
 Start / Paus / Reset
 
-2. Bildslider
+2. Bildslider ***
 Visa en bild i taget
 Nästa / Föregående
 

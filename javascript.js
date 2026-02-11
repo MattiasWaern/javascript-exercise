@@ -74,6 +74,8 @@ for(i = 1; i <= answer; i++){
 
 
 
+// Mattematik kod
+
 let talList = [5, 10, 15, 20, 25];
 console.log(`En array med tal: ${talList}`)
 
@@ -94,7 +96,7 @@ function medelvärdet(){
 
 medelvärdet();
 
-
+// ClickCount kod
 
 button = document.getElementById("clickCountKnapp");
 const counter = document.getElementById("clickCountCounter");
@@ -107,8 +109,11 @@ button.addEventListener('click', () => {
 });
 
 
+// Byt tema kod
+
 const greetings = document.getElementById("Greetings")
 const themeButton = document.getElementById("toggleTheme");
+
 
 function switchTheme(){
     const currentTheme = document.documentElement.getAttribute('data-theme');
@@ -122,7 +127,7 @@ function switchTheme(){
 
 themeButton.addEventListener('click', switchTheme);
 
-
+// Form validering kod
 
 function validateForm() {
   let name = document.forms["myForm"]["fname"].value;
@@ -152,7 +157,9 @@ function validateForm() {
   alert("Form submitted successfully")
   return true;
 }
-*/
+
+// Photo Album kod
+
 
 const prevButton = document.getElementById("prevPhotoButton")
 const nextButton = document.getElementById("nextPhotoButton")
@@ -197,3 +204,5 @@ function photoAlbum(){
 }
 
 photoAlbum();
+
+*/
