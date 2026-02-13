@@ -61,11 +61,11 @@ Start / Paus / Reset
 Visa en bild i taget
 Nästa / Föregående
 
-3. API-övning
+3. API-övning // ta denna näst 4.
 Hämta data från ett API (t.ex. väder eller böcker)
 Visa i DOM
 
 4. Mini-spel
-Clicker-spel
-Memory
-Sten-sax-påse
+Clicker-spel // ta denna näst 3.
+Memory // ta denna näst 2.
+Sten-sax-påse // ta denna näst 1.
