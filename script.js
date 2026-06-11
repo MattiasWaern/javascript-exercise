@@ -43,8 +43,10 @@ console.log(total);
 let html = `<h2>${total}</h2>`
 
 function kalkylator(){
-    const price = 200;
-    const discount = 0.25%
+    const price = 100;
 
-    const calculatedPrice = (price * )
+    const calculatedPrice = price - (price * 0.2);
+    return calculatedPrice;
 }
+
+console.log( "Kalkylator: " + kalkylator());
