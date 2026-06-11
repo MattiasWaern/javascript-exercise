@@ -45,7 +45,7 @@ let html = `<h2>${total}</h2>`
 function kalkylator(){
     const price = 100;
 
-    const calculatedPrice = price - (price * 0.2);
+    const calculatedPrice = (price % 200);
     return calculatedPrice;
 }
 
