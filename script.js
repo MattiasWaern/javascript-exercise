@@ -41,3 +41,10 @@ let total = `Total: ${(pris * (1 + vat)).toFixed(2)}`;
 console.log(total);
 
 let html = `<h2>${total}</h2>`
+
+function kalkylator(){
+    const price = 200;
+    const discount = 0.25%
+
+    const calculatedPrice = (price * )
+}
