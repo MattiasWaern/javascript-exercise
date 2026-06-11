@@ -10,7 +10,7 @@ Lär dig deklarera och uppdatera variabler. Undvik var.
 Skapa variabler för pris, antal och total.
 
 
-3
+3 KLAR
 Strängar
 String-concatenation, template literals, vanliga metoder (length, toUpperCase()).
 Formatera en profiltext med template literals.
