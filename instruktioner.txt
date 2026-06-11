@@ -1,10 +1,10 @@
-1
+1 KLAR
 Setup + console.log
 Installera Node.js eller använd webbläsarkonsolen. Skriv och kör enkla utskrifter.
 Skriv ut ditt namn, ålder och favoritbok.
 
 
-2
+2 KLAR
 let vs const
 Lär dig deklarera och uppdatera variabler. Undvik var.
 Skapa variabler för pris, antal och total.
