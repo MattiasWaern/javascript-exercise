@@ -16,7 +16,7 @@ String-concatenation, template literals, vanliga metoder (length, toUpperCase())
 Formatera en profiltext med template literals.
 
 
-4
+4 KLAR
 Nummer & operatorer
 +, -, *, /, %, prioritet och parenteser.
 Bygg en enkel moms-/rabattkalkylator i konsolen.
