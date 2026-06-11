@@ -10,3 +10,17 @@ const annika = "min flickvän just nu";
 
 
 console.log(annika);
+
+
+let totalPrice = '';
+let price = '';
+let amount = '';
+
+function räknaUtTotalPris(){
+    price = 100;
+    amount = 3;
+    totalPrice = (price * amount);
+}
+
+
+console.log(räknaUtTotalPris(totalPrice));
