@@ -25,3 +25,19 @@ function räknaUtTotalPris(){
 
 
 console.log(räknaUtTotalPris(totalPrice));
+
+
+let firstName = "Mattias";
+let lastName = "Garcia";
+let text = `Hej mitt namn är ${firstName} ${lastName}`.toUpperCase();
+
+console.log(text);
+
+let pris = 100;
+let vat = 0.25;
+
+let total = `Total: ${(pris * (1 + vat)).toFixed(2)}`;
+
+console.log(total);
+
+let html = `<h2>${total}</h2>`
