@@ -12,14 +12,15 @@ const annika = "min flickvän just nu";
 console.log(annika);
 
 
-let totalPrice = '';
-let price = '';
-let amount = '';
+let totalPrice = 0;
+let price = 0;
+const amount = 4;
 
 function räknaUtTotalPris(){
     price = 100;
-    amount = 3;
+ /* amount = 2 */ // går inte för vi deklarerar variablen med const innan, kan icke ändra. 
     totalPrice = (price * amount);
+    return totalPrice;
 }
 
 
