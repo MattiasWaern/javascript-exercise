@@ -22,7 +22,7 @@ Nummer & operatorer
 Bygg en enkel moms-/rabattkalkylator i konsolen.
 
 
-5
+5 KLAR
 Booleans & jämförelser
 == vs , !==, >=.
 Testa olika jämförelser och skriv ut resultaten.
