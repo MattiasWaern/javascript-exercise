@@ -42,7 +42,7 @@ function kalkylator(){
 
 function booleans(){
     const money = 600;
-    const price = 700;
+    const price = 500;
 
     if(money == price || price <= money){
         console.log("Du har råd");
@@ -51,7 +51,11 @@ function booleans(){
     else if (price => money || price !== money){
         console.log("Du har inte råd")
     } 
-   
+
+    console.log(money == price);
+    console.log(money !== price);
+    console.log(money >= price);
+
 }
 
 booleans();
