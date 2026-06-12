@@ -9,9 +9,6 @@ const annika = "min flickvän just nu";
 }
 
 
-console.log(annika);
-
-
 let totalPrice = 0;
 let price = 0;
 const amount = 4;
@@ -24,21 +21,15 @@ function räknaUtTotalPris(){
 }
 
 
-console.log(räknaUtTotalPris(totalPrice));
-
-
 let firstName = "Mattias";
 let lastName = "Garcia";
 let text = `Hej mitt namn är ${firstName} ${lastName}`.toUpperCase();
-
-console.log(text);
 
 let pris = 100;
 let vat = 0.25;
 
 let total = `Total: ${(pris * (1 + vat)).toFixed(2)}`;
 
-console.log(total);
 
 let html = `<h2>${total}</h2>`
 
@@ -49,4 +40,20 @@ function kalkylator(){
     return calculatedPrice;
 }
 
-console.log( "Kalkylator: " + kalkylator());
+function booleans(){
+    const money = 600;
+    const price = 500;
+
+    if(money == price){
+        console.log("Du har råd");
+    }
+    if(price => money ){
+        console.log("Du har inte råd")
+    }
+
+    if(money !== price ){
+        console.log("Du har inte tillräckligt med pengar")
+    }
+}
+
+booleans();
