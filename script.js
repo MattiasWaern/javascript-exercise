@@ -42,18 +42,16 @@ function kalkylator(){
 
 function booleans(){
     const money = 600;
-    const price = 500;
+    const price = 700;
 
-    if(money == price){
+    if(money == price || price <= money){
         console.log("Du har råd");
-    }
-    if(price => money ){
-        console.log("Du har inte råd")
-    }
+    } 
 
-    if(money !== price ){
-        console.log("Du har inte tillräckligt med pengar")
-    }
+    else if (price => money || price !== money){
+        console.log("Du har inte råd")
+    } 
+   
 }
 
 booleans();
