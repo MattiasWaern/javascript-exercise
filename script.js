@@ -1,3 +1,4 @@
+/*
 console.log("Jag är 21 år gammal, heter Mattias och min favoriträtt är Annika");
 console.log("Annika är också min framtida fru <3");
 
@@ -15,7 +16,7 @@ const amount = 4;
 
 function räknaUtTotalPris(){
     price = 100;
- /* amount = 2 */ // går inte för vi deklarerar variablen med const innan, kan icke ändra. 
+  amount = 2  // går inte för vi deklarerar variablen med const innan, kan icke ändra. 
     totalPrice = (price * amount);
     return totalPrice;
 }
@@ -56,7 +57,7 @@ function booleans(){
     console.log(money == price);
     console.log(money !== price);
     console.log(money >= price);
-*/
+
 }
 
 booleans();
@@ -89,3 +90,4 @@ function Annika(){
 }
 
 Annika();
+*/

@@ -1,3 +1,5 @@
+--------------------------------------------------------- VECKA 1 -------------------------------------------------------------------
+
 1 KLAR
 Setup + console.log
 Installera Node.js eller använd webbläsarkonsolen. Skriv och kör enkla utskrifter.
@@ -38,3 +40,46 @@ Ta en sträng '42' och gör om den till ett tal.
 Repetition + miniquiz
 Gå igenom allt från veckan. Skriv kod utan att titta på anteckningar.
 Bygg ett litet program som beräknar totalpris och skriver ut en snygg rad med template literals.
+
+--------------------------------------------------------- VECKA 2 -------------------------------------------------------------------
+
+8
+if / else
+Grundläggande beslutsträd.
+Kontrollera om en användare är myndig (18+).
+
+
+9
+else if	
+Flera villkor i ordning.
+Betygsskala (A–F) från poäng.
+
+
+10
+Logiska operatorer
+&&, ||, ! och kortslutning.
+Inloggningsvakt: rätt användarnamn och rätt lösenord.
+
+
+11
+switch	
+När switch är lämpligt.
+Veckodag → aktivitet.
+
+
+12
+Ternary operator
+Kortare villkor med condition ? a : b.
+Skriv “Mörkt tema” eller “Ljust tema” baserat på en boolean.
+
+
+13
+Nästa nivå på villkor
+Nästlade villkor, tidiga return (i små funktioner).
+Fraktkostnad baserat på land och ordervärde.
+
+
+14
+Repetition + felsökning
+Ta 3 gamla uppgifter och lös dem igen från minnet.
+Hitta och fixa 5 avsiktliga buggar du själv lägger in.
