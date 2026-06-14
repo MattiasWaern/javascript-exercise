@@ -28,13 +28,13 @@ Booleans & jämförelser
 Testa olika jämförelser och skriv ut resultaten.
 
 
-6
+6 KLAR
 Konvertering & typeof
 Number(), String(), Boolean(), typeof.
 Ta en sträng '42' och gör om den till ett tal.
 
 
-7
+7 KLAR
 Repetition + miniquiz
 Gå igenom allt från veckan. Skriv kod utan att titta på anteckningar.
 Bygg ett litet program som beräknar totalpris och skriver ut en snygg rad med template literals.
