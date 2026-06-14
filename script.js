@@ -72,3 +72,20 @@ function convert(){
 convert();
 
 
+const a = "5";
+const b = Number(a);
+const c = String(b);
+
+console.log(typeof c)
+
+
+
+function Annika(){
+    const price = 100;
+    const vat = 0.25;
+
+    const priceVat = (price * (1 + vat));
+    console.log(`Normal price ${price}, Vat: ${vat}% Price with vat ${priceVat}`);
+}
+
+Annika();
