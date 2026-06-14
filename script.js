@@ -52,10 +52,11 @@ function booleans(){
         console.log("Du har inte råd")
     } 
 
+    /*
     console.log(money == price);
     console.log(money !== price);
     console.log(money >= price);
-
+*/
 }
 
 booleans();
