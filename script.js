@@ -59,3 +59,11 @@ function booleans(){
 }
 
 booleans();
+
+
+
+const number1 = "10";
+
+number1
+
+console.log(typeof(number1));
