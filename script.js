@@ -62,9 +62,13 @@ function booleans(){
 booleans();
 
 
+function convert(){
+    const convertToNumber = '10';
+    Number(convertToNumber);
+    
+    console.log(typeof Number(convertToNumber));
+}
 
-const number1 = "10";
+convert();
 
-number1
 
-console.log(typeof(number1));
