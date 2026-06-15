@@ -43,7 +43,7 @@ Bygg ett litet program som beräknar totalpris och skriver ut en snygg rad med t
 
 --------------------------------------------------------- VECKA 2 -------------------------------------------------------------------
 
-8
+8 KLAR
 if / else
 Grundläggande beslutsträd.
 Kontrollera om en användare är myndig (18+).
