@@ -91,3 +91,15 @@ function Annika(){
 
 Annika();
 */
+
+function checkAge(){
+    const age = 17;
+
+    if (age >= 18){
+        console.log("Du är tillräckligt gammal");
+    } else {
+        console.log("Du är inte tillräckligt gammal");
+    }
+}
+
+checkAge();
