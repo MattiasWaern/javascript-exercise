@@ -49,7 +49,7 @@ Grundläggande beslutsträd.
 Kontrollera om en användare är myndig (18+).
 
 
-9
+9 KLAR
 else if	
 Flera villkor i ordning.
 Betygsskala (A–F) från poäng.
