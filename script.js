@@ -90,7 +90,7 @@ function Annika(){
 }
 
 Annika();
-*/
+
 
 function checkAge(){
     const age = 17;
@@ -103,3 +103,24 @@ function checkAge(){
 }
 
 checkAge();
+*/
+
+function schoolGrade(){
+ const points = 45;
+
+    if (points >= 90 ){
+        console.log("Du fick betyg A")
+    } else if (points >= 80) {
+        console.log("Du fick betyg B")
+    } else if (points >= 65){
+        console.log("Du fick betyg C")
+    } else if (points >= 55){
+        console.log("Du fick betyg D")
+    } else if (points >= 50){
+        console.log("Du fick betyg E")
+    } 
+    else (console.log("Du fick betyg F"))
+
+}
+
+schoolGrade();
