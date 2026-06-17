@@ -91,6 +91,7 @@ function Annika(){
 
 Annika();
 
+*/
 
 function checkAge(){
     const age = 17;
@@ -103,7 +104,6 @@ function checkAge(){
 }
 
 checkAge();
-*/
 
 function schoolGrade(){
  const points = 45;
@@ -124,3 +124,25 @@ function schoolGrade(){
 }
 
 schoolGrade();
+
+const username = (
+    prompt("Skriv ditt användarnamn")
+)
+
+const password = (
+    prompt("Skriv ditt lösenord")
+)
+
+console.log(username);
+
+function checkUsername(){
+
+    if(username === 'mattias' && password === 'annika'){
+        console.log("Du är inloggad")
+    } else {
+        console.log("felaktigt anvädernamn eller lösenord")
+    }
+
+}
+
+checkUsername();
