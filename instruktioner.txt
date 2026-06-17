@@ -55,7 +55,7 @@ Flera villkor i ordning.
 Betygsskala (A–F) från poäng.
 
 
-10
+10 KLAR, gör mer uppgifter om || och !
 Logiska operatorer
 &&, ||, ! och kortslutning.
 Inloggningsvakt: rätt användarnamn och rätt lösenord.
