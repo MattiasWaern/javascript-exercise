@@ -61,7 +61,7 @@ Logiska operatorer
 Inloggningsvakt: rätt användarnamn och rätt lösenord.
 
 
-11
+11 KLAR
 switch	
 När switch är lämpligt.
 Veckodag → aktivitet.

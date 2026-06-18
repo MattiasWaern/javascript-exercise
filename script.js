@@ -154,9 +154,6 @@ if (money === 10 || payment === 10){
     alert("Payment verified")
 }
 function date(){
-
-    console.log(new Date().getDay());
-
     switch (new Date().getDay()) {
 
     case 0:
