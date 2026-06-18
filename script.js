@@ -153,4 +153,43 @@ const payment = 10;
 if (money === 10 || payment === 10){
     alert("Payment verified")
 }
+function date(){
 
+    console.log(new Date().getDay());
+
+    switch (new Date().getDay()) {
+
+    case 0:
+        day = "Sunday";
+        text = "Today is ";
+        break;
+    case 1:
+        day = "Monday";
+        text = "Today is ";
+        break;
+    case 2:
+        day = "Tuesday";
+        text = "Today is ";
+        break;
+    case 3:
+        day = "Wednesday";
+        text = "Today is ";
+        break;
+    case 4:
+        day = "Thursday";
+        text = "Today is ";
+        break;
+    case 5:
+        day = "Friday";
+        text = "Today is ";
+        break;
+    case 6:
+        day = "Saturday";
+        text = "Today is ";
+        break;
+    }
+
+    console.log(text + "" + day);
+}
+
+date();
