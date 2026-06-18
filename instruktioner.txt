@@ -67,19 +67,19 @@ När switch är lämpligt.
 Veckodag → aktivitet.
 
 
-12
+12 FREDAG
 Ternary operator
 Kortare villkor med condition ? a : b.
 Skriv “Mörkt tema” eller “Ljust tema” baserat på en boolean.
 
 
-13
+13 LÖRDAG 
 Nästa nivå på villkor
 Nästlade villkor, tidiga return (i små funktioner).
 Fraktkostnad baserat på land och ordervärde.
 
 
-14
+14 LÖRDAG/SÖNDAG
 Repetition + felsökning
 Ta 3 gamla uppgifter och lös dem igen från minnet.
 Hitta och fixa 5 avsiktliga buggar du själv lägger in.
