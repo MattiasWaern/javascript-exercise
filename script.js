@@ -146,3 +146,11 @@ function checkUsername(){
 }
 
 checkUsername();
+
+const money = 10;
+const payment = 10;
+
+if (money === 10 || payment === 10){
+    alert("Payment verified")
+}
+
