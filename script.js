@@ -123,16 +123,16 @@ function schoolGrade(){
 
 }
 
-schoolGrade();
 
-const username = (
+
+/*const username = (
     prompt("Skriv ditt användarnamn")
 )
 
 const password = (
     prompt("Skriv ditt lösenord")
 )
-
+*/
 console.log(username);
 
 function checkUsername(){
@@ -145,14 +145,15 @@ function checkUsername(){
 
 }
 
-checkUsername();
+
 
 const money = 10;
 const payment = 10;
-
+/*
 if (money === 10 || payment === 10){
     alert("Payment verified")
 }
+*/
 function date(){
     switch (new Date().getDay()) {
 
@@ -192,17 +193,6 @@ function date(){
 date();
 
 
-const themeButton= document.getElementById("themeButton");
-
-function initializeTheme(){
-    const themeToggle = document.getElementById('theme-toggle');
-
-    const savedTheme = localStorage.getItem('theme') || 'dark';
-    document.documentElement.setAttribute('data-theme', savedTheme);
-    updateThemeIcon(savedTheme);
-
-    themeToggle.addEventListener('click', toggleTheme);
-}
 
 function changeTheme(){
     console.log("knapp klickad")
@@ -210,5 +200,4 @@ function changeTheme(){
     const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
 
     document.documentElement.setAttribute('data-theme', newTheme);
-    localStorage.setItem('theme', newTheme);
 }
