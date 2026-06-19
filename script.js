@@ -190,3 +190,25 @@ function date(){
 }
 
 date();
+
+
+const themeButton= document.getElementById("themeButton");
+
+function initializeTheme(){
+    const themeToggle = document.getElementById('theme-toggle');
+
+    const savedTheme = localStorage.getItem('theme') || 'dark';
+    document.documentElement.setAttribute('data-theme', savedTheme);
+    updateThemeIcon(savedTheme);
+
+    themeToggle.addEventListener('click', toggleTheme);
+}
+
+function changeTheme(){
+    console.log("knapp klickad")
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+
+    document.documentElement.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+}
