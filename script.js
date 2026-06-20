@@ -203,11 +203,8 @@ function changeTheme(){
 
 
 function shippingCost(){
-    let vat = 0;
-    let price = 0;
-
     function costs(){
-        price = prompt("Skriv hur mycket pengar det kostar")
+        price = Number(prompt("Skriv hur mycket pengar det kostar"))
         return price;
         console.log(typeof price);
     }
@@ -231,11 +228,12 @@ function shippingCost(){
     function calculateShippingPrice(){
         const finalPrice = (price * (vat + 1));
 
-        console.log(`"Du ska betala:" ${finalPrice} "för frakten"`)
+        console.log(`Du ska betala: ${finalPrice.toFixed(2)}kr för frakten`)
     }
     costs();
     whichCountry();
     calculateShippingPrice();
+    console.log(typeof price);
 }
 
 
