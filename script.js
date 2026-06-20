@@ -133,7 +133,6 @@ const password = (
     prompt("Skriv ditt lösenord")
 )
 */
-console.log(username);
 
 function checkUsername(){
 
@@ -201,3 +200,43 @@ function changeTheme(){
 
     document.documentElement.setAttribute('data-theme', newTheme);
 }
+
+
+function shippingCost(){
+    let vat = 0;
+    let price = 0;
+
+    function costs(){
+        price = prompt("Skriv hur mycket pengar det kostar")
+        return price;
+        console.log(typeof price);
+    }
+
+    function whichCountry(){
+       const country = prompt(
+            "Vilket land skickar du till?"
+        ) 
+
+        if (country === 'sweden'){
+            vat = 0.25;
+        } 
+        else if (country === 'norway'){
+            vat = 0.15;
+        } else {
+            vat = 0.5;
+        }
+        console.log(vat)
+    }
+
+    function calculateShippingPrice(){
+        const finalPrice = (price * (vat + 1));
+
+        console.log(`"Du ska betala:" ${finalPrice} "för frakten"`)
+    }
+    costs();
+    whichCountry();
+    calculateShippingPrice();
+}
+
+
+shippingCost();
