@@ -217,12 +217,12 @@ function shippingCost(){
         ) 
 
         if (country === 'sweden'){
-            vat = 0.25;
+            return 0.25;
         } 
         else if (country === 'norway'){
-            vat = 0.15;
+            return 0.15;
         } else {
-            vat = 0.5;
+            return 0.5;
         }
         console.log(vat)
     }
