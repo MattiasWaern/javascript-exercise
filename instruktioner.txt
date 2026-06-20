@@ -1,4 +1,4 @@
---------------------------------------------------------- VECKA 1 -------------------------------------------------------------------
+-------------------------------------------------------------------------------- VECKA 1 -------------------------------------------------------------------------------------
 
 1 KLAR
 Setup + console.log
@@ -41,7 +41,7 @@ Repetition + miniquiz
 Gå igenom allt från veckan. Skriv kod utan att titta på anteckningar.
 Bygg ett litet program som beräknar totalpris och skriver ut en snygg rad med template literals.
 
---------------------------------------------------------- VECKA 2 -------------------------------------------------------------------
+-------------------------------------------------------------------------------- VECKA 2 -------------------------------------------------------------------------------------
 
 8 KLAR
 if / else
@@ -83,3 +83,46 @@ Fraktkostnad baserat på land och ordervärde.
 Repetition + felsökning
 Ta 3 gamla uppgifter och lös dem igen från minnet.
 Hitta och fixa 5 avsiktliga buggar du själv lägger in.
+
+-------------------------------------------------------------------------------- VECKA 3 -------------------------------------------------------------------------------------
+
+15
+for-loop
+Start, villkor, uppdatering.
+Skriv ut talen 1–20.
+
+
+16
+while-loop
+När man inte vet antalet iterationer i förväg.
+Räkna ned från 10 till 0.
+
+
+17
+break & continue
+Avbryt eller hoppa över iterationer.
+Skriv ut udda tal mellan 1 och 30.
+
+
+18
+Nästlade loopar
+Loopar inuti loopar.
+Skriv en 5×5 “tabell” av stjärnor i konsolen.
+
+
+19
+Arrayer – grunder
+Skapa arrayer, index, length, läsa/skriva element.
+Hantera en lista med böcker eller spel.
+
+
+20
+Loopa över arrayer
+for över array och enkel summering.
+Summera en array med tal.
+
+
+21
+Repetition + miniprojekt
+Kombinera villkor, loopar och arrayer.
+Bygg en “inköpslista”-konsolapp: lägg till varor i en array och skriv ut dem numrerade.
