@@ -67,7 +67,7 @@ När switch är lämpligt.
 Veckodag → aktivitet.
 
 
-12 FREDAG
+12 FREDAG KLAR
 Ternary operator
 Kortare villkor med condition ? a : b.
 Skriv “Mörkt tema” eller “Ljust tema” baserat på en boolean.
