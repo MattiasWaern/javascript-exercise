@@ -73,7 +73,7 @@ Kortare villkor med condition ? a : b.
 Skriv “Mörkt tema” eller “Ljust tema” baserat på en boolean.
 
 
-13 LÖRDAG 
+13 LÖRDAG KLAR
 Nästa nivå på villkor
 Nästlade villkor, tidiga return (i små funktioner).
 Fraktkostnad baserat på land och ordervärde.
