@@ -253,3 +253,14 @@ function counter(){
 }
 
 counter();
+
+
+function countDown(){
+    let i = 11;
+    while( i > 1){
+        i --;
+        console.log("The number is " + i)
+    }
+}
+
+countDown();
