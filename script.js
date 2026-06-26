@@ -272,9 +272,12 @@ function schoolGrade(){
     } else if (points >= 50){
         console.log("Du fick betyg E")
     } 
-    else (console.log("Du fick betyg F"))
+    else {
+        console.log("Du fick betyg F")
+    }
 }
 
+schoolGrade();
 
 function shippingCost(){
 
@@ -289,7 +292,7 @@ function shippingCost(){
             "Vilket land skickar du till?"
         ) 
 
-        if (country = 'sweden'){
+        if (country === 'sweden'){
             return 0.25;
         } 
         else if (country === 'norway'){

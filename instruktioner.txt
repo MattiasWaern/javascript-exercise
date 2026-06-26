@@ -79,7 +79,7 @@ Nästlade villkor, tidiga return (i små funktioner).
 Fraktkostnad baserat på land och ordervärde.
 
 
-14 LÖRDAG/SÖNDAG
+14 LÖRDAG/SÖNDAG KLAR
 Repetition + felsökning
 Ta 3 gamla uppgifter och lös dem igen från minnet.
 Hitta och fixa 5 avsiktliga buggar du själv lägger in.
