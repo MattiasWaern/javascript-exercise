@@ -86,43 +86,43 @@ Hitta och fixa 5 avsiktliga buggar du själv lägger in.
 
 -------------------------------------------------------------------------------- VECKA 3 -------------------------------------------------------------------------------------
 
-15
+15 MÅNDAG
 for-loop
 Start, villkor, uppdatering.
 Skriv ut talen 1–20.
 
 
-16
+16 TISDAG
 while-loop
 När man inte vet antalet iterationer i förväg.
 Räkna ned från 10 till 0.
 
 
-17
+17 ONSDAG
 break & continue
 Avbryt eller hoppa över iterationer.
 Skriv ut udda tal mellan 1 och 30.
 
 
-18
+18 TORSDAG
 Nästlade loopar
 Loopar inuti loopar.
 Skriv en 5×5 “tabell” av stjärnor i konsolen.
 
 
-19
+19 FREDAG
 Arrayer – grunder
 Skapa arrayer, index, length, läsa/skriva element.
 Hantera en lista med böcker eller spel.
 
 
-20
+20 LÖRDAG
 Loopa över arrayer
 for över array och enkel summering.
 Summera en array med tal.
 
 
-21
+21 SÖNDAG
 Repetition + miniprojekt
 Kombinera villkor, loopar och arrayer.
 Bygg en “inköpslista”-konsolapp: lägg till varor i en array och skriv ut dem numrerade.
