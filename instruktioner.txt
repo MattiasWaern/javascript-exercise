@@ -92,7 +92,7 @@ Start, villkor, uppdatering.
 Skriv ut talen 1–20.
 
 
-16 TISDAG
+16 TISDAG KLAR
 while-loop
 När man inte vet antalet iterationer i förväg.
 Räkna ned från 10 till 0.
