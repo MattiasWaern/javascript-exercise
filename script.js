@@ -275,7 +275,7 @@ function schoolGrade(){
     else (console.log("Du fick betyg F"))
 }
 
-/*
+
 function shippingCost(){
 
     function costs(){
@@ -285,7 +285,7 @@ function shippingCost(){
 
     function whichCountry(){
 
-       const country = prompt(
+       let country = prompt(
             "Vilket land skickar du till?"
         ) 
 
@@ -295,7 +295,7 @@ function shippingCost(){
         else if (country === 'norway'){
             return 0.15;
         } else {
-            return;
+            return 0.30;
         }
         console.log(vat)
     }
@@ -306,13 +306,12 @@ function shippingCost(){
         console.log(`Du ska betala: ${finalPrice.toFixed(2)}kr för frakten`)
     }
 
-    const price = costs();
+    let price = costs();
 
-    const vat = whichCountry();
+    let vat = whichCountry();
 
     calculateShippingPrice(price, vat);
 
 }
 
 shippingCost();
-*/
