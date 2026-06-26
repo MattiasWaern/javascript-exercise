@@ -86,7 +86,7 @@ Hitta och fixa 5 avsiktliga buggar du själv lägger in.
 
 -------------------------------------------------------------------------------- VECKA 3 -------------------------------------------------------------------------------------
 
-15 MÅNDAG
+15 MÅNDAG KLAR
 for-loop
 Start, villkor, uppdatering.
 Skriv ut talen 1–20.

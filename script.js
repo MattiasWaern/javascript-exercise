@@ -246,75 +246,10 @@ function shippingCost(){
 shippingCost();
 */
 
-function checkAge(){
-    const age = 17;
-
-    if (age >= 18){
-        console.log("Du är tillräckligt gammal");
-    } else if (age < 18) {
-        console.log("Du är inte tillräckligt gammal");
-    }
-
-    console.log("Kontroll utförd");
-}
-
-function schoolGrade(){
- const points = 65;
-
-    if (points >= 90 ){
-        console.log("Du fick betyg A")
-    } else if (points >= 80) {
-        console.log("Du fick betyg B")
-    } else if (points >= 65){
-        console.log("Du fick betyg C")
-    } else if (points >= 55){
-        console.log("Du fick betyg D")
-    } else if (points >= 50){
-        console.log("Du fick betyg E")
-    } 
-    else {
-        console.log("Du fick betyg F")
+function counter(){
+    for (let i = 0; i< 21; i++ ){
+        console.log(i);
     }
 }
 
-schoolGrade();
-
-function shippingCost(){
-
-    function costs(){
-        const price = Number(prompt("Skriv hur mycket pengar det kostar"))
-        return price;
-    }
-
-    function whichCountry(){
-
-       let country = prompt(
-            "Vilket land skickar du till?"
-        ) 
-
-        if (country === 'sweden'){
-            return 0.25;
-        } 
-        else if (country === 'norway'){
-            return 0.15;
-        } else {
-            return 0.30;
-        }
-        console.log(vat)
-    }
-
-    function calculateShippingPrice(price, vat){
-        const finalPrice = (price * (vat + 1));
-
-        console.log(`Du ska betala: ${finalPrice.toFixed(2)}kr för frakten`)
-    }
-
-    let price = costs();
-
-    let vat = whichCountry();
-
-    calculateShippingPrice(price, vat);
-
-}
-
-shippingCost();
+counter();
