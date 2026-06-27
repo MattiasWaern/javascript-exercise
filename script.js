@@ -252,9 +252,6 @@ function counter(){
     }
 }
 
-
-
-
 function countDown(){
     let i = 11;
     while( i > 1){
@@ -271,4 +268,12 @@ function uddaTal(){
     }
 }
 
-uddaTal();
+
+function array(){
+    const nyObjekt = prompt("Skriv vad du gillar")
+    const spel = (["spel", "böcker", "mamma" ])
+    spel.push(nyObjekt);
+
+    console.log(spel)
+    console.log(spel[3]);
+}

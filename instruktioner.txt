@@ -110,7 +110,7 @@ Loopar inuti loopar.
 Skriv en 5×5 “tabell” av stjärnor i konsolen.
 
 
-19 FREDAG
+19 FREDAG KLAR
 Arrayer – grunder
 Skapa arrayer, index, length, läsa/skriva element.
 Hantera en lista med böcker eller spel.
