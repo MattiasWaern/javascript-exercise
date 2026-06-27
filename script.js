@@ -281,15 +281,18 @@ function array(){
 
 
 function lista(){
-    const inKöpsLista = prompt("Skriv vad du vill köpa").split(' ')
-    const array = ([ ]);
+    const inKöpsLista = prompt("Skriv vad du vill köpa").split(" ")
+    const array = [];
 
-    array.push(inKöpsLista);
-
-
-    array.forEach(inKöpsLista => {
-        console.log(array)
+    inKöpsLista.forEach((item) => {
+        array.push(item);
     });
+
+    array.forEach((item, index) => {
+        console.log(`${index + 1}. ${item}`)
+    })
+
+    console.log(array);
 }
 
 lista();
