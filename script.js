@@ -270,10 +270,26 @@ function uddaTal(){
 
 
 function array(){
-    const nyObjekt = prompt("Skriv vad du gillar")
+    const nyObjekt = prompt("Skriv vad du gillar").split(' ')
     const spel = (["spel", "böcker", "mamma" ])
     spel.push(nyObjekt);
 
     console.log(spel)
     console.log(spel[3]);
 }
+
+
+
+function lista(){
+    const inKöpsLista = prompt("Skriv vad du vill köpa").split(' ')
+    const array = ([ ]);
+
+    array.push(inKöpsLista);
+
+
+    array.forEach(inKöpsLista => {
+        console.log(array)
+    });
+}
+
+lista();
