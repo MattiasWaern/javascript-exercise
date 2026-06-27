@@ -122,7 +122,7 @@ for över array och enkel summering.
 Summera en array med tal.
 
 
-21 SÖNDAG
+21 SÖNDAG KLAR
 Repetition + miniprojekt
 Kombinera villkor, loopar och arrayer.
 Bygg en “inköpslista”-konsolapp: lägg till varor i en array och skriv ut dem numrerade.
