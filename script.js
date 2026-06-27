@@ -266,7 +266,7 @@ function countDown(){
 
 function uddaTal(){
     for (let i = 0; i < 31; i++){
-        if(i % 2 !== 0 ){ continue }
+        if (i % 2 === 0) { continue; }
         console.log(i);
     }
 }

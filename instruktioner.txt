@@ -98,7 +98,7 @@ När man inte vet antalet iterationer i förväg.
 Räkna ned från 10 till 0.
 
 
-17 ONSDAG
+17 ONSDAG KLAR
 break & continue
 Avbryt eller hoppa över iterationer.
 Skriv ut udda tal mellan 1 och 30.
@@ -126,3 +126,5 @@ Summera en array med tal.
 Repetition + miniprojekt
 Kombinera villkor, loopar och arrayer.
 Bygg en “inköpslista”-konsolapp: lägg till varor i en array och skriv ut dem numrerade.
+
+-------------------------------------------------------------------------------- VECKA 4 -------------------------------------------------------------------------------------
