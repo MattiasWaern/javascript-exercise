@@ -296,3 +296,14 @@ function lista(){
 }
 
 lista();
+
+
+function arrayLoop(){
+    const array = ["annika", "milo", "mattias"]
+
+    array.forEach((item, index) => {
+        console.log(`${index + 1}. ${item}`)
+    })
+}
+
+arrayLoop();
