@@ -116,7 +116,7 @@ Skapa arrayer, index, length, läsa/skriva element.
 Hantera en lista med böcker eller spel.
 
 
-20 LÖRDAG
+20 LÖRDAG KLAR
 Loopa över arrayer
 for över array och enkel summering.
 Summera en array med tal.
