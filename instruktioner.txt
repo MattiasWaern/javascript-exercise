@@ -128,3 +128,59 @@ Kombinera villkor, loopar och arrayer.
 Bygg en “inköpslista”-konsolapp: lägg till varor i en array och skriv ut dem numrerade.
 
 -------------------------------------------------------------------------------- VECKA 4 -------------------------------------------------------------------------------------
+
+22
+Funktioner – declaration
+Parametrar, argument, return.
+Skriv add(a, b) och multiply(a, b).
+
+
+23
+Function expressions
+Tilldela funktioner till variabler.
+Skriv const square = function(n) { ... }.
+
+
+24
+Arrow functions
+Kort syntax och implicita returns.
+Konvertera gårdagens funktioner till arrow functions.
+
+
+25
+Scope
+Globalt, block- och funktionsscope. let/const i block.
+Experimentera med variabler inuti och utanför if och funktioner.
+
+
+26
+Pass-by-value vs referenser (intro)
+Hur primitiva värden skiljer sig från objekt/arrayer.
+Kopiera ett tal och en array; se skillnaden när du ändrar dem.
+
+
+27
+Små hjälpfunktioner
+Bygg återanvändbara funktioner för validering och format.
+isAdult(age), formatCurrency(n).
+
+
+28
+Felsökningsteknik
+Använd console.log, läs stack traces och isolera buggar.
+Ta ett gammalt program och bryt det medvetet – fixa det igen.
+
+
+29
+Miniprojekt (dag 1)
+Planera och börja koda ett litet konsolprogram.
+Exempel: “quiz”, “budgetkalkylator” eller “gissa talet”.
+
+
+30
+Miniprojekt (dag 2) + självvärdering
+Färdigställ, testa och refaktorera lite.
+Skriv ner vad du kan utan att titta: variabler, villkor, loopar, funktioner, scope.
+
+
+-------------------------------------------------------------------------------- VECKA 5 -------------------------------------------------------------------------------------
