@@ -129,7 +129,7 @@ Bygg en “inköpslista”-konsolapp: lägg till varor i en array och skriv ut d
 
 -------------------------------------------------------------------------------- VECKA 4 -------------------------------------------------------------------------------------
 
-22
+22 KLAR
 Funktioner – declaration
 Parametrar, argument, return.
 Skriv add(a, b) och multiply(a, b).

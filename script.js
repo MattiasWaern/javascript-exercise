@@ -244,7 +244,7 @@ function shippingCost(){
 
 
 shippingCost();
-*/
+
 
 function counter(){
     for (let i = 0; i< 21; i++ ){
@@ -307,3 +307,15 @@ function arrayLoop(){
 }
 
 arrayLoop();
+*/
+
+function add(a, b){
+    return a + b;
+}
+
+function multiply(a, b){
+    return a * b;
+}
+
+console.log(add(5, 5))
+console.log(multiply(5, 5))
