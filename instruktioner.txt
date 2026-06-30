@@ -135,13 +135,13 @@ Parametrar, argument, return.
 Skriv add(a, b) och multiply(a, b).
 
 
-23
+23 KLAR
 Function expressions
 Tilldela funktioner till variabler.
 Skriv const square = function(n) { ... }.
 
 
-24
+24 NÄSTAN KLAR
 Arrow functions
 Kort syntax och implicita returns.
 Konvertera gårdagens funktioner till arrow functions.
