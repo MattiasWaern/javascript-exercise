@@ -319,3 +319,16 @@ function multiply(a, b){
 
 console.log(add(5, 5))
 console.log(multiply(5, 5))
+
+
+const square = function (a){
+    return a * a;
+};
+
+
+function squar (a){
+    return a * a;
+}
+
+
+const plus = (a) => a * a;
