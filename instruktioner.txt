@@ -159,7 +159,7 @@ Hur primitiva värden skiljer sig från objekt/arrayer.
 Kopiera ett tal och en array; se skillnaden när du ändrar dem.
 
 
-27
+27 GÖR DETTA IMORRN
 Små hjälpfunktioner
 Bygg återanvändbara funktioner för validering och format.
 isAdult(age), formatCurrency(n).
