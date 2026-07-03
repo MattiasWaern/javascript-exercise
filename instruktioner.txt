@@ -171,7 +171,7 @@ Använd console.log, läs stack traces och isolera buggar.
 Ta ett gammalt program och bryt det medvetet – fixa det igen.
 
 
-29
+29 KLAR
 Miniprojekt (dag 1)
 Planera och börja koda ett litet konsolprogram.
 Exempel: “quiz”, “budgetkalkylator” eller “gissa talet”.
