@@ -332,3 +332,28 @@ function squar (a){
 
 
 const plus = (a) => a * a;
+
+
+
+
+//gissa talet
+
+alert("Gissa rätt siffra, mellan 1 - 6");
+
+
+function guessNumber(){
+    const Numbers = [0,1,2,3,4,5,6];
+    const correctNumber = Math.floor(Math.random () * Numbers.length) + 1;
+
+    const guessNumber = Number(prompt("Skriv in ditt svar"));
+
+    if (guessNumber === correctNumber){
+        alert("Grattis du gissade rätt")
+    } else {
+        alert("Du gissade fel..")
+    }
+
+    console.log(correctNumber);
+}
+
+guessNumber();
