@@ -337,11 +337,7 @@ const plus = (a) => a * a;
 
 
 //gissa talet
-
 alert("Gissa rätt siffra, mellan 1 - 6");
-
-
-
 function guessNumber(){
     const Numbers = [1,2,3,4,5,6];
     const randomIndex = Math.floor(Math.random () * Numbers.length)
