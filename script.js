@@ -341,17 +341,25 @@ const plus = (a) => a * a;
 alert("Gissa rätt siffra, mellan 1 - 6");
 
 
+
 function guessNumber(){
-    const Numbers = [0,1,2,3,4,5,6];
-    const correctNumber = Math.floor(Math.random () * Numbers.length) + 1;
+    const Numbers = [1,2,3,4,5,6];
+    const randomIndex = Math.floor(Math.random () * Numbers.length)
+    const correctNumber = Numbers[randomIndex];
 
-    const guessNumber = Number(prompt("Skriv in ditt svar"));
+    function guess(){
+        const guessNumber = Number(prompt("Skriv in ditt svar"));
+        if (guessNumber === correctNumber){
+            alert("Grattis du gissade rätt")
+        } else {
+            alert("Du gissade fel..")
+            guess();
+        }
 
-    if (guessNumber === correctNumber){
-        alert("Grattis du gissade rätt")
-    } else {
-        alert("Du gissade fel..")
-    }
+        }
+        guess();
+
+
 
     console.log(correctNumber);
 }
