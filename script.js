@@ -377,3 +377,6 @@ function isAdult(age){
 
 isAdult(16);
 isAdult(18);
+
+
+// quiz spel
