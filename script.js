@@ -360,4 +360,20 @@ function guessNumber(){
     console.log(correctNumber);
 }
 
-guessNumber();
+
+
+
+// const age = Number(prompt("Skriv in din ålder"));
+
+
+function isAdult(age){
+
+    if (age >= 18){
+        alert("Du är vuxen")
+    } else {
+        alert("Du är inte vuxen")
+    } 
+}
+
+isAdult(16);
+isAdult(18);
