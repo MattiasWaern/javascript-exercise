@@ -184,3 +184,42 @@ Skriv ner vad du kan utan att titta: variabler, villkor, loopar, funktioner, sco
 
 
 -------------------------------------------------------------------------------- VECKA 5 -------------------------------------------------------------------------------------
+
+
+31	
+Objekt – grunder
+Skapa objekt, properties och values.	
+Skapa ett book-objekt med titel, författare och antal sidor.
+    
+
+32	
+Läsa & ändra objekt	
+Punktnotation och hakparenteser.	
+Uppdatera priset på ett produktobjekt.
+
+
+33	
+Objekt i objekt	
+Nästlade objekt.	
+Skapa ett user-objekt med en address.
+
+
+34	
+Objektmetoder	
+Funktioner inuti objekt.	
+Skapa ett objekt med metoden introduce().
+
+
+35	
+Object.keys() & Object.values()	
+Hämta nycklar och värden.	
+Skriv ut alla egenskaper i ett objekt.
+
+
+36	
+Repetition	
+Kombinera allt om objekt.	
+Bygg ett enkelt bibliotek med tre böcker som objekt.
+
+
+-------------------------------------------------------------------------------- VECKA 6 -------------------------------------------------------------------------------------
