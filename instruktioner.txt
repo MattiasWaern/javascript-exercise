@@ -186,7 +186,7 @@ Skriv ner vad du kan utan att titta: variabler, villkor, loopar, funktioner, sco
 -------------------------------------------------------------------------------- VECKA 5 -------------------------------------------------------------------------------------
 
 
-31	
+31 KLAR
 Objekt – grunder
 Skapa objekt, properties och values.	
 Skapa ett book-objekt med titel, författare och antal sidor.

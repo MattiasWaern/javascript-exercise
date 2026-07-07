@@ -307,7 +307,7 @@ function arrayLoop(){
 }
 
 arrayLoop();
-*/
+
 
 function add(a, b){
     return a + b;
@@ -380,3 +380,23 @@ isAdult(18);
 
 
 // quiz spel
+
+*/
+
+
+const book = {
+    title: "Fourth Wing",
+    author: "Rebecca Yarros",
+    pages: 400,
+    price: 200
+}
+
+
+const updatedBook = {
+    ...book,
+    price: 500
+}
+
+
+console.log(book)
+console.log(updatedBook)
