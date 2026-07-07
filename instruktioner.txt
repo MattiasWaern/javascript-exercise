@@ -141,7 +141,7 @@ Tilldela funktioner till variabler.
 Skriv const square = function(n) { ... }.
 
 
-24 NÄSTAN KLAR
+24 KLAR
 Arrow functions
 Kort syntax och implicita returns.
 Konvertera gårdagens funktioner till arrow functions.
