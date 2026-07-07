@@ -192,7 +192,7 @@ Skapa objekt, properties och values.
 Skapa ett book-objekt med titel, författare och antal sidor.
     
 
-32	
+32 KLAR
 Läsa & ändra objekt	
 Punktnotation och hakparenteser.	
 Uppdatera priset på ett produktobjekt.
