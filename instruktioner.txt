@@ -198,7 +198,7 @@ Punktnotation och hakparenteser.
 Uppdatera priset på ett produktobjekt.
 
 
-33 
+33 KLAR
 Objekt i objekt	
 Nästlade objekt.	
 Skapa ett user-objekt med en address.
