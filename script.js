@@ -400,3 +400,14 @@ const updatedBook = {
 
 console.log(book)
 console.log(updatedBook)
+
+const person = {
+    name: "Mattias",
+    lastName: "Waern",
+    age: 22,
+    addres:{name: "Norrtälje"}
+
+}
+
+
+console.log(person.addres.name);
