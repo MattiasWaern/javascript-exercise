@@ -432,5 +432,64 @@ Avslutande projekt
 Kombinera allt du lärt dig.	
 Bygg en liten väder- eller quiz-app med UI.
 
--------------------------------------------------------------------------------- KLAR -------------------------------------------------------------------------------------
+---------------------------------------------------------------  kodintervju-frågor -------------------------------------------------------------------------------------
 
+70	
+Palindrom & strängmanipulation	
+Jobba med strängar utan inbyggda genvägar.	
+Skriv en funktion som kollar om en sträng är ett palindrom (utan .reverse()).
+
+71	
+FizzBuzz	
+Klassikern – testar loopar och villkor.	
+Skriv ut 1–100, "Fizz" för 3, "Buzz" för 5, "FizzBuzz" för båda.
+
+72	
+Räkna förekomster	
+Objekt/Map som räknare.	
+Räkna hur många gånger varje bokstav förekommer i en sträng.
+
+73	
+Ta bort dubbletter	
+Arrayer + Set, eller manuellt utan Set.
+Skriv en funktion som tar bort dubbletter ur en array, på två sätt.
+
+74	
+Största/minsta värdet	
+Loopa och jämföra utan Math.max().	
+Hitta det största talet i en array manuellt.
+
+75	
+Två summan ("Two Sum")	
+Klassisk array-fråga, ofta med hash-map-lösning.	
+Hitta två tal i en array som summerar till ett givet mål.
+
+76	
+Anagram-koll	
+Sortera/räkna bokstäver för att jämföra strängar.	
+Skriv en funktion som avgör om två ord är anagram.
+
+77	
+Platta ut nästlade arrayer	
+Rekursion eller flat().	
+Skriv en egen flatten()-funktion utan att använda .flat().
+
+78	
+Fibonacci	
+Loop-version och rekursiv version.	
+Skriv Fibonacci på två sätt och jämför prestandan i huvudet.
+
+79	
+Implementera en enkel funktion från grunden	
+Bygga om inbyggda metoder själv – visar att du förstår vad de gör.	
+Skriv din egen version av map(), filter() eller reduce().
+
+80	
+Debounce/throttle (grundprincip)	
+Vanligt i frontend-intervjuer.	
+Förklara muntligt + skriv en enkel debounce()-funktion.
+
+81	
+Whiteboard-träning	
+Öva att förklara koden medan du skriver den – högt, för dig själv eller en kompis.	
+Ta tre av ovanstående uppgifter och lös dem med tidtagning (15–20 min var) samtidigt som du pratar dig igenom logiken.
