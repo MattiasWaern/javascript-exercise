@@ -307,3 +307,82 @@ Skriv om en tidigare uppgift med destructuring och spread.
 
 
 -------------------------------------------------------------------------------- VECKA 8 -------------------------------------------------------------------------------------
+
+
+50	
+Classes – grunder	
+Constructor och metoder i en klass.	
+Skapa en Person-klass med namn och ålder.
+
+
+51	
+Inheritance	extends och super.	
+Låt Student extends Person.
+
+
+52	
+try/catch/finally	
+Fånga och kasta egna fel med throw.	
+Validera indata och kasta fel vid ogiltigt värde.
+
+
+53	
+Map och Set	Nya datastrukturer för unika värden och nyckel/värde-par.	
+Räkna unika ord i en text med Set.
+
+
+54	
+JSON	
+JSON.stringify / JSON.parse.	
+Spara ett objekt som JSON-sträng och läs tillbaka det.
+
+
+55	
+Repetition + miniprojekt	
+Kombinera klasser, felhantering och JSON.	
+Bygg en "biblioteks"-klass med böcker som objekt.
+
+
+-------------------------------------------------------------------------------- VECKA 9 -------------------------------------------------------------------------------------
+
+
+56	
+Callbacks	
+Förstå vad de är och varför de kan bli rörigt.	
+Skriv en funktion som tar en callback och kör den efter en setTimeout.
+
+
+57	
+Promises	
+Grunderna: resolve, reject, .then().	
+Skriv ett Promise som lyckas eller misslyckas slumpmässigt.
+
+
+58	
+async/await	
+Skriv om Promise-kod med async/await.	
+Konvertera gårdagens Promise till async/await.
+
+
+59	
+fetch()
+Hämta data från ett riktigt API.	
+Hämta och skriv ut data från ett gratis-API.
+
+
+60	
+Felhantering i async-kod	
+try/catch runt await.	
+Hantera ett fetch-anrop som misslyckas.
+
+
+61	
+Promise.all()	
+Kör flera async-anrop parallellt.	
+Hämta data från tre API-anrop samtidigt.
+
+
+62	
+Miniprojekt	
+Bygg något med riktig API-data.	
+Ett litet quiz- eller väderprogram i konsolen.
