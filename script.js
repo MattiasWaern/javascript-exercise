@@ -412,10 +412,31 @@ const person = {
 
 }
 
-const keys = Object.keys(person);
-const values = Object.values(person);
+const books = [
+    {
+        Title: "Test1",
+        Author: "Testing1",
+        Pages: 400,
+        Release:{Date: "2020-05-05"}
+    },
+    {
+        Title: "Test2",
+        Author: "Testing2",
+        Pages: 500,
+        Release:{Date: "2020-05-05"}
+    },
+    {
+        Title: "Test3",
+        Author: "Testing3",
+        Pages: 600,
+        Release:{Date: "2020-05-05"}
+    },
+]
+
+const keys = Object.keys(books);
+const values = Object.values(books);
 
 console.log(person.addres.name);
 console.log(person.Introduce());
 console.log(keys);
-console.log(values);
+console.log(values[1]);
