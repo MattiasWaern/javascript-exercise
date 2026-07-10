@@ -412,6 +412,8 @@ const person = {
 
 }
 
+const keys = Object.keys(person);
 
 console.log(person.addres.name);
 console.log(person.Introduce());
+console.log(keys);
