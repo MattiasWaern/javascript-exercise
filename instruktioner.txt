@@ -210,16 +210,100 @@ Funktioner inuti objekt.
 Skapa ett objekt med metoden introduce().
 
 
-35 KLAR
+35 NÄSTAN KLAR
 Object.keys() & Object.values()	
 Hämta nycklar och värden.	
-Skriv ut alla egenskaper i ett objekt.
-
-
-36	
-Repetition	
-Kombinera allt om objekt.	
-Bygg ett enkelt bibliotek med tre böcker som objekt.
+Skriv ut alla egenskaper i ett objekt. Och bygg ett enkelt bibliotek med tre böcker som objekt.
 
 
 -------------------------------------------------------------------------------- VECKA 6 -------------------------------------------------------------------------------------
+
+
+36	
+forEach()	
+Loopa över en array utan for-loop.	
+Skriv ut varje produkt i en lista.
+
+
+37	
+map()	
+Skapa en ny array baserat på en gammal.	
+Dubbla alla tal i en array.
+
+
+38	
+filter()	
+Plocka ut element som matchar ett villkor.	
+Filtrera fram bara vuxna ur en lista personer.
+
+
+39	
+reduce()	
+Summera eller aggregera värden i en array.	
+Räkna totalsumma av en varukorg.
+
+
+40	
+find() & findIndex()	
+Hitta ett specifikt element eller dess index.	
+Hitta en specifik användare i en array.
+
+
+41	
+sort()	
+Sortera arrayer – och varför det muterar originalet.	
+Sortera produkter efter pris.
+
+
+42	
+Repetition + miniprojekt	
+Kombinera map/filter/reduce i en uppgift.	
+Bygg en "produktlista"-app med filtrering och totalsumma.
+
+
+-------------------------------------------------------------------------------- VECKA 7 -------------------------------------------------------------------------------------
+
+
+43	
+Array-destructuring	
+Packa upp värden ur en array direkt.	
+Hämta de tre första spelarna ur en topplista.
+
+
+44	
+Objekt-destructuring	
+Packa upp properties ur ett objekt.
+Hämta namn och ålder ur ett user-objekt.
+
+
+45	
+Spread-operator ...	
+Kopiera/slå ihop arrayer och objekt.	
+Slå ihop två varukorgar till en.
+
+
+46	
+Rest-parametrar	
+Ta emot valfritt antal argument i en funktion.	
+Skriv sum(...tal) som summerar alla.
+
+
+47	
+Default-parametrar	
+Ge parametrar ett standardvärde.	
+Skriv greet(name = "gäst").
+
+
+48	
+Optional chaining & nullish coalescing	
+?. och ?? för säkrare kod.	
+Läs en nästlad property som kanske inte finns.
+
+
+49	
+Repetition	
+Refaktorera gamla övningar med ny syntax.	
+Skriv om en tidigare uppgift med destructuring och spread.
+
+
+-------------------------------------------------------------------------------- VECKA 8 -------------------------------------------------------------------------------------
