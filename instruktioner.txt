@@ -210,7 +210,7 @@ Funktioner inuti objekt.
 Skapa ett objekt med metoden introduce().
 
 
-35	
+35 KLAR
 Object.keys() & Object.values()	
 Hämta nycklar och värden.	
 Skriv ut alla egenskaper i ett objekt.
