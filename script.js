@@ -405,7 +405,10 @@ const person = {
     name: "Mattias",
     lastName: "Waern",
     age: 22,
-    addres:{name: "Norrtälje"}
+    addres:{name: "Norrtälje"},
+    Introduce: function(){
+        return "Hello my name is" + person.name + " " +  person.lastName;
+    }
 
 }
 
