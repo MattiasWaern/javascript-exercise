@@ -204,7 +204,7 @@ Nästlade objekt.
 Skapa ett user-objekt med en address.
 
 
-34 KLAR
+34 KLAR  
 Objektmetoder	
 Funktioner inuti objekt.	
 Skapa ett objekt med metoden introduce().
