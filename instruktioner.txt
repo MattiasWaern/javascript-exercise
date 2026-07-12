@@ -210,7 +210,7 @@ Funktioner inuti objekt.
 Skapa ett objekt med metoden introduce().
 
 
-35 NÄSTAN KLAR
+35 KLAR
 Object.keys() & Object.values()	
 Hämta nycklar och värden.	
 Skriv ut alla egenskaper i ett objekt. Och bygg ett enkelt bibliotek med tre böcker som objekt.
@@ -327,7 +327,8 @@ Validera indata och kasta fel vid ogiltigt värde.
 
 
 53	
-Map och Set	Nya datastrukturer för unika värden och nyckel/värde-par.	
+Map och Set	
+Nya datastrukturer för unika värden och nyckel/värde-par.	
 Räkna unika ord i en text med Set.
 
 
