@@ -219,7 +219,7 @@ Skriv ut alla egenskaper i ett objekt. Och bygg ett enkelt bibliotek med tre bö
 -------------------------------------------------------------------------------- VECKA 6 -------------------------------------------------------------------------------------
 
 
-36	
+36 KLAR
 forEach()	
 Loopa över en array utan for-loop.	
 Skriv ut varje produkt i en lista.
