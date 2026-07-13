@@ -381,7 +381,7 @@ isAdult(18);
 
 // quiz spel
 
-*/
+
 
 
 const book = {
@@ -440,3 +440,15 @@ console.log(person.addres.name);
 console.log(person.Introduce());
 console.log(keys);
 console.log(values);
+
+*/
+
+const lista = [1,2,3,4,5]
+
+
+lista.forEach((item) => {
+    console.log(item);
+});
+
+
+
