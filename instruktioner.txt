@@ -225,7 +225,7 @@ Loopa över en array utan for-loop.
 Skriv ut varje produkt i en lista.
 
 
-37	
+37 KLAR
 map()	
 Skapa en ny array baserat på en gammal.	
 Dubbla alla tal i en array.
