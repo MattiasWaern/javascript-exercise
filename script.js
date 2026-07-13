@@ -451,4 +451,13 @@ lista.forEach((item) => {
 });
 
 
+const numbers = [2,2,2,2,2]
+const newNumbers = numbers.map(Double)
 
+
+function Double(numbers){
+    return numbers * 2;
+}
+
+console.log(numbers);
+console.log(newNumbers);
