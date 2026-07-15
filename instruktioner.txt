@@ -231,7 +231,7 @@ Skapa en ny array baserat på en gammal.
 Dubbla alla tal i en array.
 
 
-38	
+38 KLAR
 filter()	
 Plocka ut element som matchar ett villkor.	
 Filtrera fram bara vuxna ur en lista personer.
