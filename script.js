@@ -461,3 +461,15 @@ function Double(numbers){
 
 console.log(numbers);
 console.log(newNumbers);
+
+
+const ages = [11, 22, 13, 15, 18, 19, 20, 15, 14, 19]
+
+const filtered = ages.filter(checkAdult);
+
+
+function checkAdult(ages){
+    return ages >= 18;
+}
+
+console.log(filtered);
