@@ -473,3 +473,16 @@ function checkAdult(ages){
 }
 
 console.log(filtered);
+
+
+const nummer = [15.5, 2.3, 1.1, 4.7];
+
+const summa = nummer.reduce((total, tal) => {
+    return total + tal;
+});
+
+console.log("Summan är: " + summa);
+
+
+
+
