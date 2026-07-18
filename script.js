@@ -492,9 +492,10 @@ console.log("Summan är: " + minusSumma);
 
 const users = ['mattias', 'annika', 'milo', 'leon', 'tjockis', 'frida'];
 
-const index = users.findIndex(user => user === "milo");
+const findIndex = users.findIndex(user => user === "milo");
+const index = users.find(user => user === "milo");
 
-console.log(index);
+console.log(findIndex + ' ' + index);
 
 
 
