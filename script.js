@@ -497,6 +497,30 @@ const index = users.find(user => user === "milo");
 
 console.log(findIndex + ' ' + index);
 
+const product = 
+[
+    {
+        ProductName: "Test1",
+        Price: 400,
+    },
+        {
+        ProductName: "Test2",
+        Price: 500,
+    },
+        {
+        ProductName: "Test3",
+        Price: 300,
+    },
+        {
+        ProductName: "Test3",
+        Price: 100,
+    },
+        {
+        ProductName: "Test3",
+        Price: 200,
+    },
+];
 
+product.sort((a, b) => b.Price - a.Price);
 
-
+console.log(product);
