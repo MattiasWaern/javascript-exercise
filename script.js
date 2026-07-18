@@ -481,7 +481,14 @@ const summa = nummer.reduce((total, tal) => {
     return total + tal;
 });
 
+const minusSumma = nummer.reduce((total, tal) => {
+    return total - tal;
+});
+
+
+
 console.log("Summan är: " + summa);
+console.log("Summan är: " + minusSumma);
 
 
 
