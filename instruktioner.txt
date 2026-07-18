@@ -237,7 +237,7 @@ Plocka ut element som matchar ett villkor.
 Filtrera fram bara vuxna ur en lista personer.
 
 
-39	
+39 KLAR
 reduce()	
 Summera eller aggregera värden i en array.	
 Räkna totalsumma av en varukorg.
