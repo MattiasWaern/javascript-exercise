@@ -243,7 +243,7 @@ Summera eller aggregera värden i en array.
 Räkna totalsumma av en varukorg.
 
 
-40 KLAR
+40 
 find() & findIndex()	
 Hitta ett specifikt element eller dess index.	
 Hitta en specifik användare i en array.

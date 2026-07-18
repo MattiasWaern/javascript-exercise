@@ -490,6 +490,12 @@ const minusSumma = nummer.reduce((total, tal) => {
 console.log("Summan är: " + summa);
 console.log("Summan är: " + minusSumma);
 
+const users = ['mattias', 'annika', 'milo', 'leon', 'tjockis', 'frida'];
+
+const index = users.findIndex(user => user === "milo");
+
+console.log(index);
+
 
 
 
