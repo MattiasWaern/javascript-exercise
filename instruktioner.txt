@@ -249,7 +249,7 @@ Hitta ett specifikt element eller dess index.
 Hitta en specifik användare i en array.
 
 
-41	
+41 KLAR	
 sort()	
 Sortera arrayer – och varför det muterar originalet.	
 Sortera produkter efter pris.
