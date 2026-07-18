@@ -524,3 +524,5 @@ const product =
 product.sort((a, b) => b.Price - a.Price);
 
 console.log(product);
+
+// produktlista app med filtrering och totalsumma.
