@@ -255,7 +255,7 @@ Sortera arrayer – och varför det muterar originalet.
 Sortera produkter efter pris.
 
 
-42	
+42 ONSDAG
 Repetition + miniprojekt	
 Kombinera map/filter/reduce i en uppgift.	
 Bygg en "produktlista"-app med filtrering och totalsumma.
@@ -264,43 +264,43 @@ Bygg en "produktlista"-app med filtrering och totalsumma.
 -------------------------------------------------------------------------------- VECKA 7 -------------------------------------------------------------------------------------
 
 
-43	
+43	ONSDAG
 Array-destructuring	
 Packa upp värden ur en array direkt.	
 Hämta de tre första spelarna ur en topplista.
 
 
-44	
+44	ONSDAG
 Objekt-destructuring	
 Packa upp properties ur ett objekt.
 Hämta namn och ålder ur ett user-objekt.
 
 
-45	
+45	ONSDAG
 Spread-operator ...	
 Kopiera/slå ihop arrayer och objekt.	
 Slå ihop två varukorgar till en.
 
 
-46	
+46 TORSDAG	
 Rest-parametrar	
 Ta emot valfritt antal argument i en funktion.	
 Skriv sum(...tal) som summerar alla.
 
 
-47	
+47	FREDAG
 Default-parametrar	
 Ge parametrar ett standardvärde.	
 Skriv greet(name = "gäst").
 
 
-48	
+48	LÖRDAG
 Optional chaining & nullish coalescing	
 ?. och ?? för säkrare kod.	
 Läs en nästlad property som kanske inte finns.
 
 
-49	
+49	SÖNDAG
 Repetition	
 Refaktorera gamla övningar med ny syntax.	
 Skriv om en tidigare uppgift med destructuring och spread.
