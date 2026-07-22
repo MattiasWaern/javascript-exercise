@@ -255,7 +255,7 @@ Sortera arrayer – och varför det muterar originalet.
 Sortera produkter efter pris.
 
 
-42 ONSDAG
+42 KLAR
 Repetition + miniprojekt	
 Kombinera map/filter/reduce i en uppgift.	
 Bygg en "produktlista"-app med filtrering och totalsumma.
