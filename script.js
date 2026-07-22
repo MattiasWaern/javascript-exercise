@@ -554,3 +554,10 @@ console.log(products);
 
 const prices = products.map(product => product.Price);
 console.log(prices);
+
+const totalPrice = prices.reduce(getTotal)
+
+function getTotal(total, prices){
+    return total + prices;
+}
+console.log("Totala Priset är" + " " + totalPrice + "kr");
