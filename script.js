@@ -561,3 +561,13 @@ function getTotal(total, prices){
     return total + prices;
 }
 console.log("Totala Priset är" + " " + totalPrice + "kr");
+
+
+
+const filteredProducts = products.filter(checkPrice)
+
+function checkPrice(products){
+    return products.Price >= 100;
+}
+
+console.log(filteredProducts);
