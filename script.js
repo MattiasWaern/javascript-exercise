@@ -552,4 +552,5 @@ const product =
 products.sort((a, b) => a.Price - b.Price);
 console.log(products);
 
-
+const prices = products.map(product => product.Price);
+console.log(prices);
