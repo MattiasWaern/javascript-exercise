@@ -521,13 +521,10 @@ const product =
     },
 ];
 
-product.sort((a, b) => b.Price - a.Price);
-
 // console.log(product);
 
 // produktlista app med filtrering och totalsumma.
 
-function productApp(){
     const products = 
     [
     {
@@ -552,14 +549,7 @@ function productApp(){
     },
     ];
 
-const sortedProducts = products.sort((a, b) => a.Pirce + b.Price);
-
-const total = products.Price;
-
-console.log(sortedProducts);
+products.sort((a, b) => a.Price - b.Price);
 console.log(products);
-console.log(total);
-}
 
 
-productApp();
