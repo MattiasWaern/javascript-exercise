@@ -447,7 +447,7 @@ const lista = [1,2,3,4,5]
 
 
 lista.forEach((item) => {
-    console.log(item);
+    // console.log(item);
 });
 
 
@@ -459,8 +459,8 @@ function Double(numbers){
     return numbers * 2;
 }
 
-console.log(numbers);
-console.log(newNumbers);
+// console.log(numbers);
+// console.log(newNumbers);
 
 
 const ages = [11, 22, 13, 15, 18, 19, 20, 15, 14, 19]
@@ -472,7 +472,7 @@ function checkAdult(ages){
     return ages >= 18;
 }
 
-console.log(filtered);
+// console.log(filtered);
 
 
 const nummer = [15.5, 2.3, 1.1, 4.7];
@@ -487,15 +487,15 @@ const minusSumma = nummer.reduce((total, tal) => {
 
 
 
-console.log("Summan är: " + summa);
-console.log("Summan är: " + minusSumma);
+// console.log("Summan är: " + summa);
+// console.log("Summan är: " + minusSumma);
 
 const users = ['mattias', 'annika', 'milo', 'leon', 'tjockis', 'frida'];
 
 const findIndex = users.findIndex(user => user === "milo");
 const index = users.find(user => user === "milo");
 
-console.log(findIndex + ' ' + index);
+// console.log(findIndex + ' ' + index);
 
 const product = 
 [
@@ -523,6 +523,43 @@ const product =
 
 product.sort((a, b) => b.Price - a.Price);
 
-console.log(product);
+// console.log(product);
 
 // produktlista app med filtrering och totalsumma.
+
+function productApp(){
+    const products = 
+    [
+    {
+        ProductName: "Kaffe",
+        Price: 50,
+    },
+        {
+        ProductName: "Mjölk",
+        Price: 20,
+    },
+        {
+        ProductName: "Kött",
+        Price: 200,
+    },
+        {
+        ProductName: "Ost",
+        Price: 30,
+    },
+        {
+        ProductName: "Glass",
+        Price: 80,
+    },
+    ];
+
+const sortedProducts = products.sort((a, b) => a.Pirce + b.Price);
+
+const total = products.Price;
+
+console.log(sortedProducts);
+console.log(products);
+console.log(total);
+}
+
+
+productApp();
