@@ -441,7 +441,7 @@ console.log(person.Introduce());
 console.log(keys);
 console.log(values);
 
-*/
+
 
 const lista = [1,2,3,4,5]
 
@@ -568,3 +568,21 @@ const filteredProducts = products.filter(product => product.Price >= 100)
 
 
 console.log(filteredProducts);
+
+*/
+
+
+
+const leaderboard = [
+    "Mattias",
+    "Annika",
+    "Slowpoke",
+    "Tinkaton",
+    "Gyros"
+];
+
+const [first, second, third] = leaderboard;
+
+console.log("1:a plats:", first);
+console.log("2:a plats:", second);
+console.log("3:a plats:", third);

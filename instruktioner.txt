@@ -264,7 +264,7 @@ Bygg en "produktlista"-app med filtrering och totalsumma.
 -------------------------------------------------------------------------------- VECKA 7 -------------------------------------------------------------------------------------
 
 
-43	ONSDAG
+43	KLAR
 Array-destructuring	
 Packa upp värden ur en array direkt.	
 Hämta de tre första spelarna ur en topplista.
