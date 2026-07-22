@@ -564,10 +564,7 @@ console.log("Totala Priset är" + " " + totalPrice + "kr");
 
 
 
-const filteredProducts = products.filter(checkPrice)
+const filteredProducts = products.filter(product => product.Price >= 100)
 
-function checkPrice(products){
-    return products.Price >= 100;
-}
 
 console.log(filteredProducts);
