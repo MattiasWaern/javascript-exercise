@@ -586,3 +586,20 @@ const [first, second, third] = leaderboard;
 console.log("1:a plats:", first);
 console.log("2:a plats:", second);
 console.log("3:a plats:", third);
+
+
+const persons = 
+[
+    {
+    name: "Mattias",
+    age: 22,
+    },
+     {
+    name: "Annika",
+    age: 21,
+    },
+     {
+    name: "Slowpoke",
+    age: 230,
+    },
+]
