@@ -624,3 +624,9 @@ function addNumbers(number1, number2){
 const total = addNumbers(number1, number2);
 
 console.log(total);
+
+function sum(...tal){
+    return tal.reduce((total, nummer) => total + nummer, 0);
+}
+
+console.log(sum(10, 20, 30, 50));
