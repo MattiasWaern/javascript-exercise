@@ -601,3 +601,13 @@ console.log(age);
 
 
 console.log(person.name + person.age)
+
+
+const kundvagn1 = ["potatis", "kött", "mjölk"];
+const kundvagn2 = ["olja", "salt", "vinäger"];
+const kundvagn3 = [...kundvagn1,  ...kundvagn2];
+
+
+console.log(kundvagn1)
+console.log(kundvagn2)
+console.log(kundvagn3)
