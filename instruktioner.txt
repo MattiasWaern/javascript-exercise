@@ -270,7 +270,7 @@ Packa upp värden ur en array direkt.
 Hämta de tre första spelarna ur en topplista.
 
 
-44	ONSDAG
+44	KLAR
 Objekt-destructuring	
 Packa upp properties ur ett objekt.
 Hämta namn och ålder ur ett user-objekt.

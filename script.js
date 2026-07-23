@@ -588,18 +588,16 @@ console.log("2:a plats:", second);
 console.log("3:a plats:", third);
 
 
-const persons = 
-[
-    {
+const person = {
     name: "Mattias",
     age: 22,
-    },
-     {
-    name: "Annika",
-    age: 21,
-    },
-     {
-    name: "Slowpoke",
-    age: 230,
-    },
-]
+};
+
+
+const { name, age } = person;
+
+console.log(name);
+console.log(age);
+
+
+console.log(person.name + person.age)
