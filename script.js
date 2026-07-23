@@ -611,3 +611,16 @@ const kundvagn3 = [...kundvagn1,  ...kundvagn2];
 console.log(kundvagn1)
 console.log(kundvagn2)
 console.log(kundvagn3)
+
+
+const number1 = 190;
+const number2 = 200;
+
+
+function addNumbers(number1, number2){
+    return number1 + number2;
+}
+
+const total = addNumbers(number1, number2);
+
+console.log(total);
