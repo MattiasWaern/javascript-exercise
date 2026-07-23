@@ -276,7 +276,7 @@ Packa upp properties ur ett objekt.
 Hämta namn och ålder ur ett user-objekt.
 
 
-45	ONSDAG
+45	KLAR
 Spread-operator ...	
 Kopiera/slå ihop arrayer och objekt.	
 Slå ihop två varukorgar till en.
