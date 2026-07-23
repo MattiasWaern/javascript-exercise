@@ -282,7 +282,7 @@ Kopiera/slå ihop arrayer och objekt.
 Slå ihop två varukorgar till en.
 
 
-46 TORSDAG	
+46 KLAR	
 Rest-parametrar	
 Ta emot valfritt antal argument i en funktion.	
 Skriv sum(...tal) som summerar alla.
