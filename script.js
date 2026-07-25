@@ -630,3 +630,11 @@ function sum(...tal){
 }
 
 console.log(sum(10, 20, 30, 50));
+
+
+
+
+const car = {type:"Fiat", model:"500", color:"white"};
+
+
+console.log(car?.name + car?.type);
