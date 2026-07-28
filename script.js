@@ -569,7 +569,7 @@ const filteredProducts = products.filter(product => product.Price >= 100)
 
 console.log(filteredProducts);
 
-*/
+
 
 
 
@@ -651,3 +651,4 @@ function greet(name){
 
 greet();
 
+*/
