@@ -309,7 +309,7 @@ Skriv om en tidigare uppgift med destructuring och spread.
 -------------------------------------------------------------------------------- VECKA 8 -------------------------------------------------------------------------------------
 
 
-50	
+50 KLAR
 Classes – grunder	
 Constructor och metoder i en klass.	
 Skapa en Person-klass med namn och ålder.
