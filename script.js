@@ -638,3 +638,16 @@ const car = {type:"Fiat", model:"500", color:"white"};
 
 
 console.log(car?.name + car?.type);
+
+
+
+function greet(name){
+    if (name === undefined){
+        name = "gäst"
+    }
+
+    return console.log(`Hejsan ${name}`)
+}
+
+greet();
+
