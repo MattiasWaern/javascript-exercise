@@ -315,30 +315,30 @@ Constructor och metoder i en klass.
 Skapa en Person-klass med namn och ålder.
 
 
-51	
+51	ONSDAG
 Inheritance	extends och super.	
 Låt Student extends Person.
 
 
-52	
+52	TORSDAG
 try/catch/finally	
 Fånga och kasta egna fel med throw.	
 Validera indata och kasta fel vid ogiltigt värde.
 
 
-53	
+53	FREDAG
 Map och Set	
 Nya datastrukturer för unika värden och nyckel/värde-par.	
 Räkna unika ord i en text med Set.
 
 
-54	
+54	LÖRDAG
 JSON	
 JSON.stringify / JSON.parse.	
 Spara ett objekt som JSON-sträng och läs tillbaka det.
 
 
-55	
+55	SÖNDAG
 Repetition + miniprojekt	
 Kombinera klasser, felhantering och JSON.	
 Bygg en "biblioteks"-klass med böcker som objekt.
