@@ -294,7 +294,7 @@ Ge parametrar ett standardvärde.
 Skriv greet(name = "gäst").
 
 
-48	LÖRDAG
+48	LÖRDAG KLAR
 Optional chaining & nullish coalescing	
 ?. och ?? för säkrare kod.	
 Läs en nästlad property som kanske inte finns.
