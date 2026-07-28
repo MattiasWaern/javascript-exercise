@@ -652,3 +652,19 @@ function greet(name){
 greet();
 
 */
+
+
+class Person{
+    constructor (name, age)
+    {
+        this.name = name;
+        this.age = age;
+
+    }
+}
+
+
+const person1 = new Person("Mattias", 22);
+const person2 = new Person("Annika", 21);
+
+console.log(person1, person2);
