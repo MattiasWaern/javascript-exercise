@@ -288,7 +288,7 @@ Ta emot valfritt antal argument i en funktion.
 Skriv sum(...tal) som summerar alla.
 
 
-47	FREDAG
+47	FREDAG KLAR
 Default-parametrar	
 Ge parametrar ett standardvärde.	
 Skriv greet(name = "gäst").
