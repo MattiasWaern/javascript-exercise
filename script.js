@@ -680,3 +680,15 @@ class Student extends Person {
 const student = new Student("Mattias", 21, 3);
 
 console.log(student.show());
+
+
+function testing(){
+    const age = 10
+    try{
+        if (age = 10){
+            console.log("DU är 10")
+        }
+    } catch{
+
+    }
+}
