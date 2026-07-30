@@ -661,22 +661,22 @@ class Person{
         this.age = age;
 
     }
-    show(){
+    present(){
         return `Jag heter ${this.name} och är ${this.age} år`
     }
 }
 
-class Student extends Person{
-    constructor (name, age, grade)
-    {
+class Student extends Person {
+    constructor(name, age, grade) {
         super(name, age);
         this.grade = grade;
     }
 
-    show(){
-        return this.present() + "Jag går i årskurs" + this.grade;
+    show() {
+        return this.present() + ", jag går i årskurs " + this.grade;
     }
 }
 
 const student = new Student("Mattias", 21, 3);
+
 console.log(student.show());
