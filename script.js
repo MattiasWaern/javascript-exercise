@@ -678,5 +678,5 @@ class Student extends Person{
     }
 }
 
-
-console.log(person3);
+const student = new Student("Mattias", 21, 3);
+console.log(student.show());
