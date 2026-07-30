@@ -667,17 +667,16 @@ class Person{
 }
 
 class Student extends Person{
-    constructor (grade)
+    constructor (name, age, grade)
     {
+        super(name, age);
         this.grade = grade;
     }
 
     show(){
-        return this.present() + ', it is a ' + this.grade;
+        return this.present() + "Jag går i årskurs" + this.grade;
     }
 }
 
-const person1 = new Person("Mattias", 22);
-const person2 = new Person("Annika", 21);
-const person3 = new Person("Mattias", 22);
+
 console.log(person3);
