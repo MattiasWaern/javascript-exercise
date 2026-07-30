@@ -315,7 +315,7 @@ Constructor och metoder i en klass.
 Skapa en Person-klass med namn och ålder.
 
 
-51	ONSDAG
+51	ONSDAG KLAR
 Inheritance	extends och super.	
 Låt Student extends Person.
 
