@@ -661,6 +661,9 @@ class Person{
         this.age = age;
 
     }
+    show(){
+        return `Jag heter ${this.name} och är ${this.age} år`
+    }
 }
 
 class Student extends Person{
