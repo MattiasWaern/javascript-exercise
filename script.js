@@ -714,5 +714,6 @@ fruits.set("apples", 500);
 fruits.set("bananas", 200);
 fruits.set("apelsin",100);
 
+fruits.get("bananas");
+
 console.log(fruits);
-console.log(fruits instanceof Map);
