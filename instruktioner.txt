@@ -347,43 +347,43 @@ Bygg en "biblioteks"-klass med böcker som objekt.
 -------------------------------------------------------------------------------- VECKA 9 -------------------------------------------------------------------------------------
 
 
-56	
+56	MÅNDAG
 Callbacks	
 Förstå vad de är och varför de kan bli rörigt.	
 Skriv en funktion som tar en callback och kör den efter en setTimeout.
 
 
-57	
+57	TISDAG
 Promises	
 Grunderna: resolve, reject, .then().	
 Skriv ett Promise som lyckas eller misslyckas slumpmässigt.
 
 
-58	
+58	ONSDAG
 async/await	
 Skriv om Promise-kod med async/await.	
 Konvertera gårdagens Promise till async/await.
 
 
-59	
+59	TORSDAG
 fetch()
 Hämta data från ett riktigt API.	
 Hämta och skriv ut data från ett gratis-API.
 
 
-60	
+60	FREDAG
 Felhantering i async-kod	
 try/catch runt await.	
 Hantera ett fetch-anrop som misslyckas.
 
 
-61	
+61	LÖRDAG
 Promise.all()	
 Kör flera async-anrop parallellt.	
 Hämta data från tre API-anrop samtidigt.
 
 
-62	
+62	SÖNDAG
 Miniprojekt	
 Bygg något med riktig API-data.	
 Ett litet quiz- eller väderprogram i konsolen.
