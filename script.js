@@ -717,3 +717,21 @@ fruits.set("apelsin",100);
 fruits.get("bananas");
 
 console.log(fruits);
+
+
+const text = "hund katt hund fågel katt hund hund katt hund fågel katt hundhund katt hund fågel katt hundhund katt hund fågel katt hundhund katt hund fågel katt hundhund katt hund fågel katt hundhund katt hund fågel katt hundhund katt hund fågel katt hund";
+
+const words = text.split(" ");
+const uniqueWords = new Set (words);
+
+for (const word of uniqueWords){
+    let count = 0 
+
+    for (const w of words){
+        if (w === word){
+            count ++;
+        }
+    }
+
+    console.log(`${word}, ${count}`);
+}
