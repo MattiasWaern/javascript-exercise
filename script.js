@@ -682,13 +682,25 @@ const student = new Student("Mattias", 21, 3);
 console.log(student.show());
 
 
-function testing(){
-    const age = 10
+function checkAge(age){
+
     try{
-        if (age = 10){
-            console.log("DU är 10")
+        if(typeof age !== "Number");
+        throw new Error("Åldern måste vara en siffra");
+        
+        if(age < 0){
+            throw new Error("Åldern kan inte vara negativ xd")
         }
-    } catch{
+
+        console.log("Godkänd ålder:", age);
+    } 
+    catch(error){
+        console.log("Fel", error.message)
+    } finally{
 
     }
 }
+
+checkAge(20);
+checkAge(-20);
+checkAge("20");
