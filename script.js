@@ -719,7 +719,7 @@ fruits.get("bananas");
 console.log(fruits);
 
 
-const text = "hund katt hund fågel katt hund hund katt hund fågel katt hundhund katt hund fågel katt hundhund katt hund fågel katt hundhund katt hund fågel katt hundhund katt hund fågel katt hundhund katt hund fågel katt hundhund katt hund fågel katt hund";
+const text = "hund katt hund fågel katt hund";
 
 const words = text.split(" ");
 const uniqueWords = new Set (words);
