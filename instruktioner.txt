@@ -326,7 +326,7 @@ Fånga och kasta egna fel med throw.
 Validera indata och kasta fel vid ogiltigt värde.
 
 
-53	FREDAG
+53	FREDAG KLAR
 Map och Set	
 Nya datastrukturer för unika värden och nyckel/värde-par.	
 Räkna unika ord i en text med Set.
