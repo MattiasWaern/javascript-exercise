@@ -706,3 +706,13 @@ function checkAge(age){
 checkAge(20);
 checkAge(-20);
 checkAge("20");
+
+
+const fruits = new Map();
+
+fruits.set("apples", 500);
+fruits.set("bananas", 200);
+fruits.set("apelsin",100);
+
+console.log(fruits);
+console.log(fruits instanceof Map);
