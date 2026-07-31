@@ -685,9 +685,11 @@ console.log(student.show());
 function checkAge(age){
 
     try{
-        if(typeof age !== "number");
-        throw new Error("Åldern måste vara en siffra");
+        if(typeof age !== "number"){
+            throw new Error("Åldern måste vara en siffra");
+        }
         
+
         if(age < 0){
             throw new Error("Åldern kan inte vara negativ xd")
         }
