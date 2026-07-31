@@ -320,7 +320,7 @@ Inheritance	extends och super.
 Låt Student extends Person.
 
 
-52	TORSDAG
+52	TORSDAG KLAR
 try/catch/finally	
 Fånga och kasta egna fel med throw.	
 Validera indata och kasta fel vid ogiltigt värde.
