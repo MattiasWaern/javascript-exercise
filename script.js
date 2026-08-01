@@ -754,4 +754,12 @@ const texts = JSON.stringify(Mattias);
 console.log(texts);
 
 
-const textss = '{"name":"Mattias","age":22,"city":"Norrtälje"}';
+const textss = '{"name":"MMattias","age":22,"city":"Norrtälje"}';
+
+const persons = JSON.parse(textss);
+
+
+let name = persons.name;
+
+
+console.log(name);
