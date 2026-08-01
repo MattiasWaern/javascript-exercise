@@ -737,3 +737,21 @@ for (const word of uniqueWords){
 
     console.log(`${word}, ${count}`);
 }
+
+
+const Mattias = 
+{
+    name: "Mattias",
+    age: 20,
+    occupation: "Student",
+    Girlfriend: "Annika",
+    RelationshipLength: 1,
+
+}
+
+const texts = JSON.stringify(Mattias);
+
+console.log(texts);
+
+
+const textss = '{"name":"Mattias","age":22,"city":"Norrtälje"}';
