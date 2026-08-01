@@ -332,7 +332,7 @@ Nya datastrukturer för unika värden och nyckel/värde-par.
 Räkna unika ord i en text med Set.
 
 
-54	LÖRDAG
+54	LÖRDAG KLAR
 JSON	
 JSON.stringify / JSON.parse.	
 Spara ett objekt som JSON-sträng och läs tillbaka det.
