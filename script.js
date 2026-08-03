@@ -763,3 +763,14 @@ let name = persons.name;
 
 
 console.log(name);
+
+
+
+class Book{
+    constructor(bookTitle, releaseDate){
+        this.bookTitle = bookTitle,
+        this.releaseDate = releaseDate
+    }
+
+    
+}
