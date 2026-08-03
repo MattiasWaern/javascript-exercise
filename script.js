@@ -766,12 +766,16 @@ console.log(name);
 
 
 
-class Book{
+class Books{
     constructor(bookTitle, author, releaseDate){
         this.bookTitle = bookTitle,
         this.releaseDate = releaseDate,
         this.author = author
     }
 
-    
 }
+
+const Book = new Books("Fourth wing", "Mattias", 2020)
+
+
+console.log(Book);
