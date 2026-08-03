@@ -767,9 +767,10 @@ console.log(name);
 
 
 class Book{
-    constructor(bookTitle, releaseDate){
+    constructor(bookTitle, author, releaseDate){
         this.bookTitle = bookTitle,
-        this.releaseDate = releaseDate
+        this.releaseDate = releaseDate,
+        this.author = author
     }
 
     
