@@ -777,5 +777,7 @@ class Books{
 
 const Book = new Books("Fourth wing", "Mattias", 2020)
 
+const bookShelf = JSON.stringify(Books)
 
 console.log(Book);
+console.log(bookShelf);
