@@ -779,9 +779,31 @@ class Library{
     constructor(){
         this.books = []
     }
-}
 
 
-addBook(book){
-    
+
+    addBook(book){
+        if(!(book instanceof Book)){
+            throw new Error("Du måste skicka in ett Bok-objekt");
+        }
+
+        this.books.push(book);
+        console.log(`"${book.title}" lades till.`);
+    }
+
+
+    showBooks(){
+        if (this.books.length === 0 ){
+            console.log("Bibliotel är tomt");
+            return;
+        }
+
+        console.log("Böcker i bibliotek");
+
+        this.books.forEach((book, index) => {
+            console.log(
+                `${index + 1}. ${book.title} - ${book.author} ${book.year}`
+            );
+        });
+    }
 }
