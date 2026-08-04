@@ -766,26 +766,22 @@ console.log(name);
 
 
 
-class Books{
-    constructor(bookTitle, author, releaseDate){
+class Book{
+    constructor(bookTitle, author, year){
         this.bookTitle = bookTitle,
-        this.releaseDate = releaseDate,
+        this.year = year,
         this.author = author
     }
 
 }
 
-const Book = new Books("Fourth wing", "Mattias", 2020)
-
-const bookShelf = JSON.stringify(Books)
-
-console.log(Book);
-console.log(bookShelf);
-
-function books(){
-    try{
-
-    } catch{
-
+class Library{
+    constructor(){
+        this.books = []
     }
+}
+
+
+addBook(book){
+    
 }
