@@ -338,7 +338,7 @@ JSON.stringify / JSON.parse.
 Spara ett objekt som JSON-sträng och läs tillbaka det.
 
 
-55	SÖNDAG
+55	SÖNDAG KLAR
 Repetition + miniprojekt	
 Kombinera klasser, felhantering och JSON.	
 Bygg en "biblioteks"-klass med böcker som objekt.
