@@ -862,3 +862,27 @@ try {
 catch(error){
         console.log("Fel:", error.message);
 }
+
+console.log("");
+
+library.showBooks();
+
+console.log("");
+
+
+const json = library.saveToJSON();
+
+console.log("JSON:");
+console.log(json);
+
+console.log("");
+
+
+const newLibrary = new Library();
+
+newLibrary.loadFromJSON(json);
+
+console.log("Böcker efter JSON.parse():");
+newLibrary.showBooks();
+
+console.log("");
