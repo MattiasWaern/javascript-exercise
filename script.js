@@ -830,3 +830,35 @@ class Library{
         );
     }
 }
+
+
+const library = new Library();
+
+try {
+    const book1 = new Book(
+        "Harry Potter",
+        "J.K. Rowling",
+        1997
+    );
+
+    const book2 = new Book(
+        "Bilar",
+        "Mattias",
+        2004
+    );
+
+    const book3 = new Book(
+        "Sagan om Ringen",
+        "aNNIKA",
+        1997
+    );
+
+    library.addBook(book1)
+        library.addBook(book2)
+            library.addBook(book3)
+
+}
+
+catch(error){
+        console.log("Fel:", error.message);
+}
