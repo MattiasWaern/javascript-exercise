@@ -806,4 +806,27 @@ class Library{
             );
         });
     }
+
+    removeBook(title){
+        const index = this.books.findIndex(book => book.title === title);
+
+        if(index === -1){
+            throw new Error("Boken fiins inte");
+        }
+
+        this.books.splice(index, 1)
+        console.log(`"${title}" togs bort`);
+    }
+
+    saveToJSON(){
+        return JSON.stringify(this.books, null, 2);
+    }
+
+    loadFromJSON(json){
+        const parsedBooks = JSON.parse(json);
+
+        this.books = parsedBooks.map(book => 
+            new Book(book.title, book.author, book.year)
+        );
+    }
 }
