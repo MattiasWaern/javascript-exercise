@@ -766,7 +766,7 @@ console.log(name);
 
 
 
-class Book{
+class book{
     constructor(bookTitle, author, year){
         this.bookTitle = bookTitle,
         this.year = year,
@@ -835,19 +835,19 @@ class Library{
 const library = new Library();
 
 try {
-    const book1 = new Book(
+    const book1 = new book(
         "Harry Potter",
         "J.K. Rowling",
         1997
     );
 
-    const book2 = new Book(
+    const book2 = new book(
         "Bilar",
         "Mattias",
         2004
     );
 
-    const book3 = new Book(
+    const book3 = new book(
         "Sagan om Ringen",
         "aNNIKA",
         1997
