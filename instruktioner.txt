@@ -392,43 +392,43 @@ Ett litet quiz- eller väderprogram i konsolen.
 -------------------------------------------------------------------------------- VECKA 10 -------------------------------------------------------------------------------------
 
 
-63	
+63 MÅNDAG
 DOM – välja element
 querySelector och querySelectorAll.	
 Hämta och logga ett par element från en enkel HTML-sida.
 
 
-64	
+64	TISDAG
 Ändra innehåll/style	
 Uppdatera text och CSS via JavaScript.	
 Byt text och bakgrundsfärg på en knapptryckning.
 
 
-65	
+65	ONSDAG
 Event listeners	
 Klick- och input-händelser.	
 Räkna antal klick på en knapp.
 
 
-66	
+66	TORSDAG
 Formulär och validering
 Läs av formulärdata och kontrollera den.	
 Validera att ett e-postfält inte är tomt.
 
 
-67	
+67	FREDAG
 To-do-lista	
 Kombinera DOM, events och arrayer.	
 Bygg en enkel to-do-lista i webbläsaren.
 
 
-68	
+68	LÖRDAG
 Fetch + DOM	
 Visa API-data direkt på sidan.	
 Hämta data och rendera den i en lista på sidan.
 
 
-69	
+69	SÖNDAG
 Avslutande projekt	
 Kombinera allt du lärt dig.	
 Bygg en liten väder- eller quiz-app med UI.

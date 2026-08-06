@@ -651,7 +651,6 @@ function greet(name){
 
 greet();
 
-*/
 
 
 class Person{
@@ -886,3 +885,5 @@ console.log("Böcker efter JSON.parse():");
 newLibrary.showBooks();
 
 console.log("");
+
+*/
