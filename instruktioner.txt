@@ -359,7 +359,7 @@ Grunderna: resolve, reject, .then().
 Skriv ett Promise som lyckas eller misslyckas slumpmässigt.
 
 
-58	ONSDAG
+58	ONSDAG KLAR
 async/await	
 Skriv om Promise-kod med async/await.	
 Konvertera gårdagens Promise till async/await.
