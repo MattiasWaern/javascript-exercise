@@ -928,9 +928,23 @@ checkNumber()
 
  
 async function catFacts() {
-    const response = await fetch("https://catfact.ninja/fact");
-    const data = await response.json();
-    return data;
+
+    try {
+
+        const response = await fetch("https://catfact.ninja/fact");
+
+        if(!response.ok){
+            throw new error("Kunde inte hämta data")
+        }
+
+        const data = await response.json();
+        return data;
+
+    } catch(error){
+        
+        console.log("Error", error.message)
+    }
+  
 }
 
 catFacts()
