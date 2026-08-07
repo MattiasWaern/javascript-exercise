@@ -932,27 +932,18 @@ async function catFacts() {
     try {
 
         const response = await fetch("https://catfact.ninja/fact");
-
         if(!response.ok){
             throw new error("Kunde inte hämta data")
         }
-
         const data = await response.json();
-        return data;
+        console.log(data.fact);
 
-    } catch(error){
-        
-        console.log("Error", error.message)
+    } catch(error){ 
+        console.error(error)
     }
   
 }
 
-catFacts()
-    .then((data) => {
-        console.log(data);
-    })
-    .catch((error) => {
-        console.error(error);
-    });
+
 
 
