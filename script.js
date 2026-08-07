@@ -904,4 +904,23 @@ doWork(() => {
 })
 
 
+const promise = new Promise((resolve, reject) => {
+
+
+    const number = Math.floor(Math.random() * 10);
+
+    if(number > 5){
+        resolve("Numret är större än 5");
+    } else {
+        reject("Numret är för litet");
+    }
+});
+
+promise
+    .then((result) => {
+        console.log(result);
+    })
+    .catch((error) => {
+        console.log(error)
+    })
 
