@@ -353,7 +353,7 @@ Förstå vad de är och varför de kan bli rörigt.
 Skriv en funktion som tar en callback och kör den efter en setTimeout.
 
 
-57	TISDAG
+57	TISDAG KLAR
 Promises	
 Grunderna: resolve, reject, .then().	
 Skriv ett Promise som lyckas eller misslyckas slumpmässigt.
