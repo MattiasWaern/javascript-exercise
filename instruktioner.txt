@@ -365,7 +365,7 @@ Skriv om Promise-kod med async/await.
 Konvertera gårdagens Promise till async/await.
 
 
-59	TORSDAG 
+59	TORSDAG KLAR
 fetch()
 Hämta data från ett riktigt API.	
 Hämta och skriv ut data från ett gratis-API.
