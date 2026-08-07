@@ -347,7 +347,7 @@ Bygg en "biblioteks"-klass med böcker som objekt.
 -------------------------------------------------------------------------------- VECKA 9 -------------------------------------------------------------------------------------
 
 
-56	MÅNDAG
+56	MÅNDAG KLAR
 Callbacks	
 Förstå vad de är och varför de kan bli rörigt.	
 Skriv en funktion som tar en callback och kör den efter en setTimeout.
