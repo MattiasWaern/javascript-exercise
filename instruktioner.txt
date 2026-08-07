@@ -371,7 +371,7 @@ Hämta data från ett riktigt API.
 Hämta och skriv ut data från ett gratis-API.
 
 
-60	FREDAG
+60	FREDAG KLAR
 Felhantering i async-kod	
 try/catch runt await.	
 Hantera ett fetch-anrop som misslyckas.

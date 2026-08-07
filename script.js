@@ -930,7 +930,6 @@ checkNumber()
 async function catFacts() {
 
     try {
-
         const response = await fetch("https://catfact.ninja/fact");
         if(!response.ok){
             throw new error("Kunde inte hämta data")
