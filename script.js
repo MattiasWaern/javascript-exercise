@@ -889,6 +889,8 @@ console.log("");
 */
 
 
+
+
 function doWork(callback){
 
     console.log("Jobbar...")
@@ -932,16 +934,19 @@ async function catFacts() {
     try {
         const response = await fetch("https://catfact.ninja/fact");
         if(!response.ok){
-            throw new error("Kunde inte hämta data")
+            throw new Error("Kunde inte hämta data")
         }
         const data = await response.json();
         console.log(data.fact);
+        document.getElementById("catFacts").innerHTML = data.fact;
 
     } catch(error){ 
         console.error(error)
     }
-  
+
 }
+
+catFacts();
 
 
 
