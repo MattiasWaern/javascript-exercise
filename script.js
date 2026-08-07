@@ -887,3 +887,21 @@ newLibrary.showBooks();
 console.log("");
 
 */
+
+
+function doWork(callback){
+
+    console.log("Jobbar...")
+
+    setTimeout(() => {
+        callback();
+    }, 2000);
+
+}
+
+doWork(() => {
+    console.log("Jobbat klart..")
+})
+
+
+
