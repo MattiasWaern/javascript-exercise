@@ -946,8 +946,22 @@ async function catFacts() {
 
 }
 
-catFacts();
+
+async function quizGame(){
+    try{
+
+        const response = await fetch ('https://opentdb.com/api.php?amount=10&category=23&difficulty=easy')
+        if(!response){
+            throw new Error("Kunde inte hämta data")
+        }
+
+        const data = await response.json();
+        console.log(data);
+
+    } catch{
+        console.error(error)
+    }
+}
 
 
-
-
+quizGame();
