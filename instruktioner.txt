@@ -428,7 +428,7 @@ Visa API-data direkt på sidan.
 Hämta data och rendera den i en lista på sidan.
 
 
-69	SÖNDAG
+69	SÖNDAG KLAR
 Avslutande projekt	
 Kombinera allt du lärt dig.	
 Bygg en liten väder- eller quiz-app med UI.
