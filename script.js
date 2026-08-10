@@ -956,11 +956,11 @@ async function quizGame(){
 
         const data = await response.json();
         console.log(data);
-        
+
         data.results.forEach(element => {
             console.log("Fråga", element.question);
             
-            element.incorret_answers.forEach(answer => {
+            element.incorrect_answers.forEach(answer => {
                 console.log("Fel svar", answer);
             });
 
@@ -968,9 +968,18 @@ async function quizGame(){
 
         });
 
+
+
+        document.getElementById("question").textContent = data.results[0].question
+        
+        
+
     } catch{
         console.error(error)
     }
+
+
+
 }
 
 
