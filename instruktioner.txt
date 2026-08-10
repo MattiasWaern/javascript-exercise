@@ -377,7 +377,7 @@ try/catch runt await.
 Hantera ett fetch-anrop som misslyckas.
 
 
-61	LÖRDAG
+61	LÖRDAG Palla göra
 Promise.all()	
 Kör flera async-anrop parallellt.	
 Hämta data från tre API-anrop samtidigt.
