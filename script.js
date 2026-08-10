@@ -963,10 +963,37 @@ async function quizGame() {
         console.log(data);
 
         function showQuestion() {
-            
-            document.getElementById("question").textContent = data.results[currentQuestion].question;
-            console.log(data.results[currentQuestion].question);
+           const current = data.results[currentQuestion];
+
+           document.getElementById("question").textContent = data.results[currentQuestion].question;
+           const answersContainer = document.getElementById("answers");
+            answersContainer.innerHTML = "";
+           const answers = [
+            current.correct_answer,
+            ...current.incorrect_answers
+           ];
+
+           
+           answers.forEach(answer => {
+            const button = document.createElement("button");
+                button.textContent = answer
+
+                button.addEventListener("click", () => {
+                    if (answer === current.correct_answer) {
+                        alert("Rätt!");
+                        currentQuestion ++;
+                        showQuestion();
+                    } else {
+                        alert("Fel!");
+                    }
+                });
+
+                answersContainer.appendChild(button)
+                console.log(answer);
+           });
         }
+
+       
 
         showQuestion();
 
