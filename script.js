@@ -949,7 +949,6 @@ async function catFacts() {
 
 async function quizGame(){
     try{
-
         const response = await fetch ('https://opentdb.com/api.php?amount=10&category=23&difficulty=easy')
         if(!response){
             throw new Error("Kunde inte hämta data")
@@ -957,6 +956,16 @@ async function quizGame(){
 
         const data = await response.json();
         console.log(data);
+        data.results.forEach(element => {
+            console.log("Fråga", element.question);
+            
+            element.incorret_answers.forEach(answer => {
+                console.log("Fel svar", answer);
+            });
+
+            console.log("Rätt svar:", element.correct_answer);
+
+        });
 
     } catch{
         console.error(error)
