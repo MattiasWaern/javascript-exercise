@@ -32,17 +32,54 @@ p{
 
 
 
+
 #nextQuestion{
-    font-size: 20px;
-    border-radius: 50px;
-    background-color: #007BFF;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    max-width: 600px;
+    margin: 30px auto;
+
+    padding: 18px 20px;
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    background: blue;
     color: white;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+
+    justify-content: center;
+    align-items: center;
 }
 
-#answers{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 20px;
+#answers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+#answers button {
+    padding: 18px 20px;
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    background: white;
+    color: #222;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+#answers button:hover {
+    background: #f0f0f0;
+    border-color: #999;
+    transform: translateY(-2px);
+}
+
+#answers button:active {
+    transform: translateY(0);
 }
 
