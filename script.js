@@ -956,6 +956,7 @@ async function quizGame(){
 
         const data = await response.json();
         console.log(data);
+        
         data.results.forEach(element => {
             console.log("Fråga", element.question);
             
