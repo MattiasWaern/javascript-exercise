@@ -947,40 +947,39 @@ async function catFacts() {
 }
 
 
-async function quizGame(){
-    try{
-        const response = await fetch ('https://opentdb.com/api.php?amount=10&category=23&difficulty=easy')
-        if(!response){
-            throw new Error("Kunde inte hämta data")
+async function quizGame() {
+    try {
+        let currentQuestion = 0;
+
+        const response = await fetch(
+            'https://opentdb.com/api.php?amount=10&category=23&difficulty=easy'
+        );
+
+        if (!response.ok) {
+            throw new Error("Kunde inte hämta data");
         }
 
         const data = await response.json();
         console.log(data);
 
-        data.results.forEach(element => {
-            console.log("Fråga", element.question);
+        function showQuestion() {
             
-            element.incorrect_answers.forEach(answer => {
-                console.log("Fel svar", answer);
-            });
+            document.getElementById("question").textContent = data.results[currentQuestion].question;
+            console.log(data.results[currentQuestion].question);
+        }
 
-            console.log("Rätt svar:", element.correct_answer);
+        showQuestion();
 
+        const button = document.getElementById("nextQuestion")
+        button.addEventListener('click', () => {
+            currentQuestion++;
+            showQuestion();
+            console.log("click")
         });
 
-
-
-        document.getElementById("question").textContent = data.results[0].question
-        
-        
-
-    } catch{
-        console.error(error)
+    } catch (error) {
+        console.error(error);
     }
-
-
-
 }
-
 
 quizGame();
