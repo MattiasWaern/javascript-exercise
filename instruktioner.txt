@@ -404,13 +404,13 @@ Uppdatera text och CSS via JavaScript.
 Byt text och bakgrundsfärg på en knapptryckning.
 
 
-65	ONSDAG
+65	TISDAG
 Event listeners	
 Klick- och input-händelser.	
 Räkna antal klick på en knapp.
 
 
-66	TORSDAG
+66	FREDAG
 Formulär och validering
 Läs av formulärdata och kontrollera den.	
 Validera att ett e-postfält inte är tomt.
@@ -430,8 +430,8 @@ Hämta data och rendera den i en lista på sidan.
 
 69	SÖNDAG KLAR
 Avslutande projekt	
-Kombinera allt du lärt dig.	
-Bygg en liten väder- eller quiz-app med UI.
+Skapa en lista med produkter från en array och lägg automatiskt in dem på sidan.
+Skapa tre knappar och ändra innehållet på sidan beroende på vilken knapp användaren klickar på.
 
 ---------------------------------------------------------------  kodintervju-frågor -------------------------------------------------------------------------------------
 
