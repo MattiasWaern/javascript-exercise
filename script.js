@@ -1010,3 +1010,14 @@ async function quizGame() {
 }
 
 quizGame();
+
+
+async function getUsers(){
+    const response = await fetch('URL HÄR')
+
+    if(!response.ok){
+        throw new Error("Kunde inte hämta användare")
+    }
+
+    const data = await response.json();
+}
