@@ -1025,3 +1025,8 @@ async function getUsers(){
 */
 
 
+const test = document.querySelector("p");
+const test2 = document.querySelectorAll("h1")
+
+
+console.log(test, test2);
