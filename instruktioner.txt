@@ -383,7 +383,7 @@ Kör flera async-anrop parallellt.
 Hämta data från tre API-anrop samtidigt.
 
 
-62	SÖNDAG
+62	SÖNDAG KLAR lol
 Miniprojekt	
 Bygg något med riktig API-data.	
 Ett litet quiz- eller väderprogram i konsolen.
