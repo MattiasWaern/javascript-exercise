@@ -445,7 +445,7 @@ FizzBuzz
 Klassikern – testar loopar och villkor.	
 Skriv ut 1–100, "Fizz" för 3, "Buzz" för 5, "FizzBuzz" för båda.
 
-72	
+72	SUPER VIKTIG
 Räkna förekomster	
 Objekt/Map som räknare.	
 Räkna hur många gånger varje bokstav förekommer i en sträng.
@@ -460,7 +460,7 @@ Största/minsta värdet
 Loopa och jämföra utan Math.max().	
 Hitta det största talet i en array manuellt.
 
-75	
+75	SUPER VIKTIG
 Två summan ("Two Sum")	
 Klassisk array-fråga, ofta med hash-map-lösning.	
 Hitta två tal i en array som summerar till ett givet mål.
@@ -480,17 +480,17 @@ Fibonacci
 Loop-version och rekursiv version.	
 Skriv Fibonacci på två sätt och jämför prestandan i huvudet.
 
-79	
+79	SUPER VIKTIG
 Implementera en enkel funktion från grunden	
 Bygga om inbyggda metoder själv – visar att du förstår vad de gör.	
 Skriv din egen version av map(), filter() eller reduce().
 
-80	
+80	SUPER VIKTIG
 Debounce/throttle (grundprincip)	
 Vanligt i frontend-intervjuer.	
 Förklara muntligt + skriv en enkel debounce()-funktion.
 
-81	
+81	SUPER VIKTIG
 Whiteboard-träning	
 Öva att förklara koden medan du skriver den – högt, för dig själv eller en kompis.	
 Ta tre av ovanstående uppgifter och lös dem med tidtagning (15–20 min var) samtidigt som du pratar dig igenom logiken.
