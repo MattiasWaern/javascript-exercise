@@ -494,3 +494,14 @@ Förklara muntligt + skriv en enkel debounce()-funktion.
 Whiteboard-träning	
 Öva att förklara koden medan du skriver den – högt, för dig själv eller en kompis.	
 Ta tre av ovanstående uppgifter och lös dem med tidtagning (15–20 min var) samtidigt som du pratar dig igenom logiken.
+
+83 Hantera API-fel
+Skapa en funktion som hämtar data och visar ett felmeddelande om API-anropet misslyckas.
+
+
+84 – DOM-manipulation
+Skapa en lista med produkter från en array och lägg automatiskt in dem på sidan.
+
+
+85 – Event listeners
+Skapa tre knappar och ändra innehållet på sidan beroende på vilken knapp användaren klickar på.
