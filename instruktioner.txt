@@ -398,7 +398,7 @@ querySelector och querySelectorAll.
 Hämta och logga ett par element från en enkel HTML-sida.
 
 
-64	TISDAG
+64	TISDAG KLAR
 Ändra innehåll/style	
 Uppdatera text och CSS via JavaScript.	
 Byt text och bakgrundsfärg på en knapptryckning.
