@@ -1043,12 +1043,16 @@ const colors = ["red", "green", "black", "white"]
 
 
 
-button.addEventListener('click', () => {
-    console.log("click")
-        button.style.backgroundColor = "red";
-        button.style.fontSize = "100px";
-        const randomColor = colors[Math.floor(Math.random() * colors.length)];
-        body.style.backgroundColor = randomColor;
+button.addEventListener("click", () => {
+    const randomColor = colors[Math.floor(Math.random() * colors.length)];
+
+    console.log("click");
+
+    button.style.backgroundColor = "red";
+    button.style.fontSize = "100px";
+
+    body.style.backgroundColor = randomColor;
+
     number++;
     count.innerText = number;
 });
