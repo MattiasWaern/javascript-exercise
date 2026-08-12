@@ -404,7 +404,7 @@ Uppdatera text och CSS via JavaScript.
 Byt text och bakgrundsfärg på en knapptryckning.
 
 
-65	TISDAG
+65	TISDAG KLAR
 Event listeners	
 Klick- och input-händelser.	
 Räkna antal klick på en knapp.
