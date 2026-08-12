@@ -1030,3 +1030,11 @@ const test2 = document.querySelectorAll("h1")
 
 
 console.log(test, test2);
+
+
+const button = document.getElementById("color")
+
+
+button.addEventListener('click'), () => {
+    console.log("click")
+}
