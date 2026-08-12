@@ -1033,11 +1033,19 @@ console.log(test, test2);
 
 
 const button = document.getElementById("color")
+const count = document.getElementById("count");
+
+let number = 0;
 
 
 button.addEventListener('click', () => {
     console.log("click")
     button.style.backgroundColor = "red";
     button.style.fontSize = "100px";
+
+    number++;
+
+
+    count.innerText = number;
 });
 
