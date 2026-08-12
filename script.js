@@ -1037,5 +1037,7 @@ const button = document.getElementById("color")
 
 button.addEventListener('click', () => {
     console.log("click")
+    button.style.backgroundColor = "red";
+    button.style.fontSize = "100px";
 });
 
