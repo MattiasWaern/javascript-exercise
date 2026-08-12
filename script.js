@@ -1035,6 +1035,7 @@ console.log(test, test2);
 const button = document.getElementById("color")
 
 
-button.addEventListener('click'), () => {
+button.addEventListener('click', () => {
     console.log("click")
-}
+});
+
