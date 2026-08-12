@@ -1027,7 +1027,7 @@ async function getUsers(){
 
 const test = document.querySelector("p");
 const test2 = document.querySelectorAll("h1")
-
+const body = document.querySelector("body")
 
 console.log(test, test2);
 
@@ -1038,15 +1038,19 @@ const count = document.getElementById("count");
 let number = 0;
 
 
+
+const colors = ["red", "green", "black", "white"]
+const randomColor = colors[Math.floor(Math.random() * colors.length)];
+
+
 button.addEventListener('click', () => {
     console.log("click")
     button.style.backgroundColor = "red";
     button.style.fontSize = "100px";
-
+    body.style.backgroundColor = randomColor;
     number++;
 
 
     count.innerText = number;
 });
-
 
