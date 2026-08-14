@@ -410,19 +410,19 @@ Klick- och input-händelser.
 Räkna antal klick på en knapp.
 
 
-66	FREDAG
+66	LÖRDAG
 Formulär och validering
 Läs av formulärdata och kontrollera den.	
 Validera att ett e-postfält inte är tomt.
 
 
-67	FREDAG
+67	LÖRDAG
 To-do-lista	
 Kombinera DOM, events och arrayer.	
 Bygg en enkel to-do-lista i webbläsaren.
 
 
-68	LÖRDAG
+68	SÖNDAG
 Fetch + DOM	
 Visa API-data direkt på sidan.	
 Hämta data och rendera den i en lista på sidan.
