@@ -1059,6 +1059,7 @@ button.addEventListener("click", () => {
 
 
 function validateForm(){
+    event.preventDefault();
     const email = document.getElementById("email");
     const password = document.getElementById("password");
 
@@ -1073,8 +1074,8 @@ function validateForm(){
     }    
 
 
-    console.log("Email", email);
-    console.log("Password", password);
+    console.log("Email:", email.value);
+    console.log("Password:", password.value);
 
 
     return true;
