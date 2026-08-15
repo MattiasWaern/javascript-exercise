@@ -416,7 +416,7 @@ Läs av formulärdata och kontrollera den.
 Validera att ett e-postfält inte är tomt.
 
 
-67	LÖRDAG
+67	SÖNDAG
 To-do-lista	
 Kombinera DOM, events och arrayer.	
 Bygg en enkel to-do-lista i webbläsaren.
