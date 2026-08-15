@@ -428,7 +428,7 @@ Visa API-data direkt på sidan.
 Hämta data och rendera den i en lista på sidan.
 
 
-69	SÖNDAG KLAR
+69	MÅNDAG 
 Avslutande projekt	
 Skapa en lista med produkter från en array och lägg automatiskt in dem på sidan.
 Skapa tre knappar och ändra innehållet på sidan beroende på vilken knapp användaren klickar på.
