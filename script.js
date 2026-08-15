@@ -1057,3 +1057,26 @@ button.addEventListener("click", () => {
     count.innerText = number;
 });
 
+
+function validateForm(){
+    const email = document.getElementById("email");
+    const password = document.getElementById("password");
+
+    if (email === ""){
+        alert ("email must be filled out ")
+        return false;
+    }
+
+    if (password === ""){
+        alert ("password must be filled out ")
+        return false;
+    }    
+
+
+    console.log("Email", email);
+    console.log("Password", password);
+
+
+    return true;
+}
+
