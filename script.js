@@ -1126,15 +1126,48 @@ function toDoList(){
     const button = document.getElementById("addTodo");
     const tasks = ["borsta tänder", "tvätta händer"];
 
-  
-    tasks.forEach(element => {
-     const listItem = document.createElement("li")
-     listItem.textContent = tasks;
-
+        tasks.forEach(element => {
+        const listItem = document.createElement("li")
+        const deleteButton = document.createElement("button")
+        deleteButton.addEventListener('click', (e) => {
+        console.log("delete")
+        })
+        listItem.textContent = element;
         list.appendChild(listItem);
+        listItem.appendChild(deleteButton);
+
+
+       
+        
     });
+  
+    button.addEventListener('click', addItem);
+
+    function addItem(){
+        if(input.value != ""){
+                tasks.push(input.value);
+                input.value = "";
+                console.log(tasks);
+                renderList();
+        } else {
+            console.log("Fältet är tomt")
+        }        
+    }
+
+    function renderList(){
+        list.innerHTML = "";
+
+        tasks.forEach(element => {
+            const listItem = document.createElement("li");
+            listItem.textContent = element;
+
+            list.appendChild(listItem);
+        })
+    }
+
     
 
+    
 
 }
 
