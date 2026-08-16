@@ -93,6 +93,7 @@ Annika();
 
 */
 
+
 /*
 function checkAge(){
     const age = 17;
@@ -1125,23 +1126,9 @@ function toDoList(){
     const input = document.getElementById("todoInput");
     const button = document.getElementById("addTodo");
     const tasks = ["borsta tänder", "tvätta händer"];
-
-        tasks.forEach(element => {
-        const listItem = document.createElement("li")
-        const deleteButton = document.createElement("button")
-        deleteButton.addEventListener('click', (e) => {
-        console.log("delete")
-        })
-        listItem.textContent = element;
-        list.appendChild(listItem);
-        listItem.appendChild(deleteButton);
-
-
-       
-        
-    });
-  
     button.addEventListener('click', addItem);
+
+    renderList();
 
     function addItem(){
         if(input.value != ""){
@@ -1157,17 +1144,22 @@ function toDoList(){
     function renderList(){
         list.innerHTML = "";
 
-        tasks.forEach(element => {
+        tasks.forEach((element, index) => {
             const listItem = document.createElement("li");
+
+            const deleteButton = document.createElement("button");
+            deleteButton.textContent = "Delete Task"
+
+            deleteButton.addEventListener('click', (e) => {
+                tasks.splice(index, 1);
+                renderList();
+                })
+
             listItem.textContent = element;
-
             list.appendChild(listItem);
+            listItem.appendChild(deleteButton);
         })
-    }
-
-    
-
-    
+    }        
 
 }
 
