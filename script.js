@@ -1085,9 +1085,12 @@ function validateForm(){
 
 
 async function apiResponse(){
+    const list = document.getElementById("productList");
+    const listItem = document.getElementById("listItem");
+
     try{
 
-        const response = await fetch ('');
+        const response = await fetch ('https://dummyjson.com/products');
 
         if(!response.ok){
             throw new Error;
@@ -1097,6 +1100,11 @@ async function apiResponse(){
         const data = await response.json();
 
         console.log(data)
+
+        data.forEach(element => {
+            listItem.innerHTML = data;
+            listItem.append(list);
+        });
 
     } catch (error){
         console.log("Error:", error)
