@@ -1084,7 +1084,7 @@ function validateForm(){
 
 
 
-function apiResponse(){
+async function apiResponse(){
     try{
 
         const response = await fetch ('');
