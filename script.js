@@ -1137,7 +1137,7 @@ function toDoList(){
                 console.log(tasks);
                 renderList();
         } else {
-            console.log("Fältet är tomt")
+            alert("Fältet är tomt")
         }        
     }
 
@@ -1155,7 +1155,7 @@ function toDoList(){
                 renderList();
                 })
 
-            listItem.textContent = element;
+            listItem.textContent = element + index;
             list.appendChild(listItem);
             listItem.appendChild(deleteButton);
         })
