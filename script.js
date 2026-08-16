@@ -1144,7 +1144,7 @@ function toDoList(){
     function renderList(){
         list.innerHTML = "";
 
-        tasks.forEach((element, index) => {
+        tasks.forEach((item, index) => {
             const listItem = document.createElement("li");
 
             const deleteButton = document.createElement("button");
@@ -1155,7 +1155,7 @@ function toDoList(){
                 renderList();
                 })
 
-            listItem.textContent = element + index;
+            listItem.textContent = item + index;
             list.appendChild(listItem);
             listItem.appendChild(deleteButton);
         })
