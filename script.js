@@ -1114,3 +1114,14 @@ async function apiResponse(){
 }
 
 apiResponse();
+
+
+
+
+
+
+function toDoList(){
+    const list = document.getElementById("todolist");
+    const input = document.getElementById("todoInput");
+    const button = document.getElementById("addTodo");
+}
