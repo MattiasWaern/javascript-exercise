@@ -422,7 +422,7 @@ Kombinera DOM, events och arrayer.
 Bygg en enkel to-do-lista i webbläsaren.
 
 
-68	SÖNDAG
+68	SÖNDAG KLAR
 Fetch + DOM	
 Visa API-data direkt på sidan.	
 Hämta data och rendera den i en lista på sidan.
