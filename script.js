@@ -1102,6 +1102,7 @@ async function apiResponse(){
 
         data.products.forEach(product => {
             const listItem = document.createElement("li")
+            listItem.id = "listItem"
                 listItem.textContent = product.title;
             
             list.appendChild(listItem);
