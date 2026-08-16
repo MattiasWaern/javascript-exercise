@@ -1124,4 +1124,19 @@ function toDoList(){
     const list = document.getElementById("todolist");
     const input = document.getElementById("todoInput");
     const button = document.getElementById("addTodo");
+    const tasks = ["borsta tänder", "tvätta händer"];
+
+  
+    tasks.forEach(element => {
+     const listItem = document.createElement("li")
+     listItem.textContent = tasks;
+
+        list.appendChild(listItem);
+    });
+    
+
+
 }
+
+
+toDoList();
