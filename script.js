@@ -1086,7 +1086,6 @@ function validateForm(){
 
 async function apiResponse(){
     const list = document.getElementById("productList");
-    const listItem = document.getElementById("listItem");
 
     try{
 
@@ -1101,9 +1100,11 @@ async function apiResponse(){
 
         console.log(data)
 
-        data.forEach(element => {
-            listItem.innerHTML = data;
-            listItem.append(list);
+        data.products.forEach(product => {
+            const listItem = document.createElement("li")
+                listItem.textContent = product.title;
+            
+            list.appendChild(listItem);
         });
 
     } catch (error){
