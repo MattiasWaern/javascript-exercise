@@ -1181,6 +1181,7 @@ function lastProject(){
 
     games.forEach((element) => {
         const listItem = document.createElement("li")
+        listItem.textContent = element.name + " " +  element.genre
         list.appendChild(listItem);
     })
 
