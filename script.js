@@ -1188,7 +1188,12 @@ function lastProject(){
 
     function renderList(genre){
         list.innerHTML = "";
-        games.forEach((element) => {
+
+        const filteredGames = genre
+        ? games.filter(game => game.genre === genre)
+        : games;
+
+        filteredGames.forEach((element) => {
         const listItem = document.createElement("li")
         listItem.textContent = element.name + " " +  element.genre
         list.appendChild(listItem);
@@ -1201,11 +1206,11 @@ function lastProject(){
     })
 
     surivalButton.addEventListener('click', () => {
-        renderList(genre.survival);
+        renderList("Survival");
     })
 
     fpsButton.addEventListener('click', () => {
-        renderList(genre.fps);
+        renderList("FPS");
     })        
     }
 
