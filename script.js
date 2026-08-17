@@ -1186,13 +1186,27 @@ function lastProject(){
 
     renderList();
 
-    function renderList(){
+    function renderList(genre){
+        list.innerHTML = "";
         games.forEach((element) => {
         const listItem = document.createElement("li")
         listItem.textContent = element.name + " " +  element.genre
         list.appendChild(listItem);
 
     })
+
+
+    allGamesButton.addEventListener('click', () => {
+        renderList();
+    })
+
+    surivalButton.addEventListener('click', () => {
+        renderList(genre.survival);
+    })
+
+    fpsButton.addEventListener('click', () => {
+        renderList(genre.fps);
+    })        
     }
 
     console.log(games.genre);
