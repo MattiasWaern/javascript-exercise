@@ -1169,11 +1169,13 @@ toDoList();
 
 
 function lastProject(){
+
     const allGamesButton = document.getElementById("allGames")
     const surivalButton = document.getElementById("survival")
     const fpsButton = document.getElementById("fps")
-    
+
     const list = document.getElementById("gameList")
+
     const games = 
     [
     { name: "Minecraft", genre: "Sandbox" },
@@ -1182,12 +1184,18 @@ function lastProject(){
     { name: "The Sims 4", genre: "Simulation" }
     ]
 
-    games.forEach((element) => {
+    renderList();
+
+    function renderList(){
+        games.forEach((element) => {
         const listItem = document.createElement("li")
         listItem.textContent = element.name + " " +  element.genre
         list.appendChild(listItem);
 
     })
+    }
+
+    console.log(games.genre);
 
 
 
