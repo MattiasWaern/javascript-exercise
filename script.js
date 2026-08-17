@@ -1169,9 +1169,20 @@ toDoList();
 
 
 function lastProject(){
-    
 
+    const list = document.getElementById("gameList")
+    const games = 
+    [
+    { name: "Minecraft", genre: "Sandbox" },
+    { name: "CS2", genre: "FPS" },
+    { name: "Project Zomboid", genre: "Survival" },
+    { name: "The Sims 4", genre: "Simulation" }
+    ]
 
+    games.forEach((element) => {
+        const listItem = document.createElement("li")
+        list.appendChild(listItem);
+    })
 
 
 }
