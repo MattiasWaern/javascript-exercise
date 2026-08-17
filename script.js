@@ -1169,7 +1169,10 @@ toDoList();
 
 
 function lastProject(){
-
+    const allGamesButton = document.getElementById("allGames")
+    const surivalButton = document.getElementById("survival")
+    const fpsButton = document.getElementById("fps")
+    
     const list = document.getElementById("gameList")
     const games = 
     [
@@ -1183,7 +1186,9 @@ function lastProject(){
         const listItem = document.createElement("li")
         listItem.textContent = element.name + " " +  element.genre
         list.appendChild(listItem);
+
     })
+
 
 
 }
